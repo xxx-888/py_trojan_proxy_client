@@ -1,0 +1,14 @@
+{
+    "trojan_host": "gos5.liflag.site",
+    "trojan_port": 26659,
+    "trojan_password": "fEICuSlkmW",
+    "listen_host": "127.0.0.1",
+    "listen_port": 10800,
+    "users": {
+        "user1": "password1"
+    },
+    "timeout": 10,
+    "max_retries": 3,
+    "buffer_size": 8192,
+    "pool_cleanup_interval": 30
+}
