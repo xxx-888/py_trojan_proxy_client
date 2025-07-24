@@ -1,0 +1,704 @@
+2025-07-24 17:12:38,940 - DEBUG - 已禁用 browserforge.download.DownloadIfNotExists
+2025-07-24 17:12:38,940 - DEBUG - 成功 Hook browserforge.network.extract_json
+2025-07-24 17:12:38,941 - DEBUG - Hook extract_json: 原始路径 D:\socks5_proxy\browser\dist\pp_browser.dist\browserforge\headers\data\input-network.zip, 重定向到 D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data
+2025-07-24 17:12:38,941 - DEBUG - 使用缓存文件: D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data\input-network.zip
+2025-07-24 17:12:38,942 - DEBUG - Hook extract_json: 原始路径 D:\socks5_proxy\browser\dist\pp_browser.dist\browserforge\headers\data\header-network.zip, 重定向到 D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data
+2025-07-24 17:12:38,942 - DEBUG - 使用缓存文件: D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data\header-network.zip
+2025-07-24 17:12:38,947 - DEBUG - 应用程序启动
+2025-07-24 17:12:39,121 - DEBUG - QApplication 初始化成功
+2025-07-24 17:12:39,121 - DEBUG - 开始初始化 SimpleBrowser
+2025-07-24 17:12:39,296 - DEBUG - 检测到系统代理: 127.0.0.1:7897
+2025-07-24 17:12:39,297 - DEBUG - 设置 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36, Accept-Language: zh-CN
+2025-07-24 17:12:39,297 - DEBUG - 获取 WebEngineProfile 成功
+2025-07-24 17:12:39,303 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:12:39,304 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:12:39,304 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:12:39,304 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:12:39,311 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:12:39,314 - DEBUG - 新标签页添加成功
+2025-07-24 17:12:39,314 - DEBUG - SimpleBrowser 初始化完成
+2025-07-24 17:12:39,314 - DEBUG - SimpleBrowser 窗口创建成功
+2025-07-24 17:12:39,409 - DEBUG - 窗口显示
+2025-07-24 17:12:39,557 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:39,562 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:40,323 - DEBUG - 悬停链接: 
+2025-07-24 17:12:40,323 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:12:40,329 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:41,052 - DEBUG - 悬停链接: 
+2025-07-24 17:12:41,618 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:12:49,970 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:12:49,970 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:12:49,970 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:12:49,970 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:12:49,974 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:12:49,994 - DEBUG - 新标签页添加成功
+2025-07-24 17:12:50,021 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:50,022 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:50,260 - DEBUG - 悬停链接: 
+2025-07-24 17:12:50,260 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:12:50,265 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:50,488 - DEBUG - 悬停链接: 
+2025-07-24 17:12:51,313 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:12:51,313 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:12:51,314 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:12:51,314 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:12:51,318 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:12:51,346 - DEBUG - 新标签页添加成功
+2025-07-24 17:12:51,366 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:51,367 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:51,589 - DEBUG - 悬停链接: 
+2025-07-24 17:12:51,590 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:12:51,594 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:12:51,818 - DEBUG - 悬停链接: 
+2025-07-24 17:12:56,899 - DEBUG - 关闭应用程序
+2025-07-24 17:16:55,231 - DEBUG - 已禁用 browserforge.download.DownloadIfNotExists
+2025-07-24 17:16:55,231 - DEBUG - 成功 Hook browserforge.network.extract_json
+2025-07-24 17:16:55,232 - DEBUG - Hook extract_json: 原始路径 D:\socks5_proxy\browser\dist\pp_browser.dist\browserforge\headers\data\input-network.zip, 重定向到 D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data
+2025-07-24 17:16:55,232 - DEBUG - 使用缓存文件: D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data\input-network.zip
+2025-07-24 17:16:55,233 - DEBUG - Hook extract_json: 原始路径 D:\socks5_proxy\browser\dist\pp_browser.dist\browserforge\headers\data\header-network.zip, 重定向到 D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data
+2025-07-24 17:16:55,233 - DEBUG - 使用缓存文件: D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data\header-network.zip
+2025-07-24 17:16:55,238 - DEBUG - 应用程序启动
+2025-07-24 17:16:55,413 - DEBUG - QApplication 初始化成功
+2025-07-24 17:16:55,413 - DEBUG - 开始初始化 SimpleBrowser
+2025-07-24 17:16:55,592 - DEBUG - 检测到系统代理: 127.0.0.1:7897
+2025-07-24 17:16:55,593 - DEBUG - 设置 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36, Accept-Language: zh-CN
+2025-07-24 17:16:55,593 - DEBUG - 获取 WebEngineProfile 成功
+2025-07-24 17:16:55,599 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:16:55,600 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:16:55,600 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:16:55,600 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:16:55,606 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:16:55,610 - DEBUG - 新标签页添加成功
+2025-07-24 17:16:55,610 - DEBUG - SimpleBrowser 初始化完成
+2025-07-24 17:16:55,610 - DEBUG - SimpleBrowser 窗口创建成功
+2025-07-24 17:16:55,708 - DEBUG - 窗口显示
+2025-07-24 17:16:55,867 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:16:55,873 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:16:56,630 - DEBUG - 悬停链接: 
+2025-07-24 17:16:56,630 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:16:56,640 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:16:56,921 - DEBUG - 悬停链接: 
+2025-07-24 17:16:56,921 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:16:57,109 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:17:01,748 - DEBUG - 开始显示页面源代码
+2025-07-24 17:17:01,750 - DEBUG - 清理并加载初始内容
+2025-07-24 17:17:01,750 - DEBUG - 初始内容长度: 5000
+2025-07-24 17:17:01,750 - DEBUG - 初始化 HTML 高亮器
+2025-07-24 17:17:01,751 - DEBUG - 高亮器已绑定到 QTextEdit
+2025-07-24 17:17:01,763 - DEBUG - 页面源代码显示完成
+2025-07-24 17:17:01,763 - DEBUG - 开始异步格式化 HTML
+2025-07-24 17:17:01,779 - DEBUG - 格式化后内容长度: 201082
+2025-07-24 17:17:01,814 - DEBUG - 格式化内容已加载，长度: 201082
+2025-07-24 17:17:07,433 - DEBUG - 悬停链接: https://accounts.google.com/ServiceLogin?hl=zh-CN&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+2025-07-24 17:17:07,454 - DEBUG - 导航请求: URL=https://ogs.google.com/widget/app/so?eom=1&awwd=1&origin=https%3A%2F%2Fwww.google.com&cn=app&pid=1&spid=538&hl=zh-CN, 类型=5, 主框架=False
+2025-07-24 17:17:07,454 - DEBUG - 悬停链接: 
+2025-07-24 17:17:09,738 - DEBUG - 开发者工具打开成功
+2025-07-24 17:17:19,666 - DEBUG - 开始显示页面源代码
+2025-07-24 17:17:19,666 - DEBUG - 清理并加载初始内容
+2025-07-24 17:17:19,667 - DEBUG - 初始内容长度: 5000
+2025-07-24 17:17:19,667 - DEBUG - 初始化 HTML 高亮器
+2025-07-24 17:17:19,667 - DEBUG - 高亮器已绑定到 QTextEdit
+2025-07-24 17:17:19,675 - DEBUG - 页面源代码显示完成
+2025-07-24 17:17:19,675 - DEBUG - 开始异步格式化 HTML
+2025-07-24 17:17:19,687 - DEBUG - 格式化后内容长度: 201412
+2025-07-24 17:17:19,698 - DEBUG - 格式化内容已加载，长度: 201412
+2025-07-24 17:17:21,200 - DEBUG - 悬停链接: https://www.google.com/intl/zh-CN/about/products
+2025-07-24 17:17:21,212 - DEBUG - 悬停链接: 
+2025-07-24 17:17:23,113 - DEBUG - 开发者工具打开成功
+2025-07-24 17:17:24,752 - DEBUG - 悬停链接: https://www.google.com/intl/zh-CN/about/products
+2025-07-24 17:17:24,760 - DEBUG - 悬停链接: 
+2025-07-24 17:17:25,884 - DEBUG - 开始显示页面源代码
+2025-07-24 17:17:25,885 - DEBUG - 清理并加载初始内容
+2025-07-24 17:17:25,885 - DEBUG - 初始内容长度: 5000
+2025-07-24 17:17:25,886 - DEBUG - 初始化 HTML 高亮器
+2025-07-24 17:17:25,886 - DEBUG - 高亮器已绑定到 QTextEdit
+2025-07-24 17:17:25,895 - DEBUG - 开始异步格式化 HTML
+2025-07-24 17:17:25,895 - DEBUG - 页面源代码显示完成
+2025-07-24 17:17:25,906 - DEBUG - 格式化后内容长度: 201412
+2025-07-24 17:17:25,918 - DEBUG - 格式化内容已加载，长度: 201412
+2025-07-24 17:17:26,942 - DEBUG - 悬停链接: https://www.google.com/intl/zh-CN/about/products
+2025-07-24 17:17:26,947 - DEBUG - 悬停链接: 
+2025-07-24 17:17:31,977 - DEBUG - 用户取消保存网页
+2025-07-24 17:17:45,849 - DEBUG - 网页保存至: C:/Users/jocker/Desktop/34243243.html
+2025-07-24 17:18:06,224 - DEBUG - 刷新当前页面
+2025-07-24 17:18:06,229 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=4, 主框架=True
+2025-07-24 17:18:06,463 - DEBUG - 悬停链接: 
+2025-07-24 17:18:07,010 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:18:09,315 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:18:09,315 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:18:09,316 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:18:09,316 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:18:09,319 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:18:09,342 - DEBUG - 新标签页添加成功
+2025-07-24 17:18:09,363 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:18:09,364 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:18:09,595 - DEBUG - 悬停链接: 
+2025-07-24 17:18:09,595 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:18:09,600 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:18:09,825 - DEBUG - 悬停链接: 
+2025-07-24 17:18:15,101 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=V_qBaKHvDbW4kPIPoYzcsQ8&iflsig=AOw8s4IAAAAAaIIIZwPLYxdvABUrJqaZ4w1qRvhxFBvd&ved=0ahUKEwjh9pXxlNWOAxU1HEQIHSEGN_YQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIgx9Q3whYxR1wAngAkAEAmAHRAaABqw-qAQUwLjYuNLgBA8gBAPgBAZgCCqACpQ6oAgDCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwLxBeLDG2WKKb0nkgcFMS40LjWgB-ZAsgcFMC40LjW4B6EOwgcHMC4zLjYuMcgHMw&sclient=gws-wiz, 类型=2, 主框架=True
+2025-07-24 17:18:15,312 - DEBUG - 悬停链接: 
+2025-07-24 17:18:15,312 - DEBUG - URL 变化: https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=V_qBaKHvDbW4kPIPoYzcsQ8&iflsig=AOw8s4IAAAAAaIIIZwPLYxdvABUrJqaZ4w1qRvhxFBvd&ved=0ahUKEwjh9pXxlNWOAxU1HEQIHSEGN_YQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIgx9Q3whYxR1wAngAkAEAmAHRAaABqw-qAQUwLjYuNLgBA8gBAPgBAZgCCqACpQ6oAgDCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwLxBeLDG2WKKb0nkgcFMS40LjWgB-ZAsgcFMC40LjW4B6EOwgcHMC4zLjYuMcgHMw&sclient=gws-wiz
+2025-07-24 17:18:15,329 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=V_qBaKHvDbW4kPIPoYzcsQ8&iflsig=AOw8s4IAAAAAaIIIZwPLYxdvABUrJqaZ4w1qRvhxFBvd&ved=0ahUKEwjh9pXxlNWOAxU1HEQIHSEGN_YQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIgx9Q3whYxR1wAngAkAEAmAHRAaABqw-qAQUwLjYuNLgBA8gBAPgBAZgCCqACpQ6oAgDCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwLxBeLDG2WKKb0nkgcFMS40LjWgB-ZAsgcFMC40LjW4B6EOwgcHMC4zLjYuMcgHMw&sclient=gws-wiz, 类型=1, 主框架=True
+2025-07-24 17:18:15,426 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:18:15,535 - DEBUG - 悬停链接: 
+2025-07-24 17:18:15,646 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=V_qBaKHvDbW4kPIPoYzcsQ8&iflsig=AOw8s4IAAAAAaIIIZwPLYxdvABUrJqaZ4w1qRvhxFBvd&ved=0ahUKEwjh9pXxlNWOAxU1HEQIHSEGN_YQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIgx9Q3whYxR1wAngAkAEAmAHRAaABqw-qAQUwLjYuNLgBA8gBAPgBAZgCCqACpQ6oAgDCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwLxBeLDG2WKKb0nkgcFMS40LjWgB-ZAsgcFMC40LjW4B6EOwgcHMC4zLjYuMcgHMw&sclient=gws-wiz&sei=XPqBaL22OtrNkPIPs_zr4Qk, 类型=6, 主框架=True
+2025-07-24 17:18:15,853 - DEBUG - 悬停链接: 
+2025-07-24 17:18:15,853 - DEBUG - URL 变化: https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=V_qBaKHvDbW4kPIPoYzcsQ8&iflsig=AOw8s4IAAAAAaIIIZwPLYxdvABUrJqaZ4w1qRvhxFBvd&ved=0ahUKEwjh9pXxlNWOAxU1HEQIHSEGN_YQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIgx9Q3whYxR1wAngAkAEAmAHRAaABqw-qAQUwLjYuNLgBA8gBAPgBAZgCCqACpQ6oAgDCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwLxBeLDG2WKKb0nkgcFMS40LjWgB-ZAsgcFMC40LjW4B6EOwgcHMC4zLjYuMcgHMw&sclient=gws-wiz&sei=XPqBaL22OtrNkPIPs_zr4Qk
+2025-07-24 17:18:15,859 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=V_qBaKHvDbW4kPIPoYzcsQ8&iflsig=AOw8s4IAAAAAaIIIZwPLYxdvABUrJqaZ4w1qRvhxFBvd&ved=0ahUKEwjh9pXxlNWOAxU1HEQIHSEGN_YQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIgx9Q3whYxR1wAngAkAEAmAHRAaABqw-qAQUwLjYuNLgBA8gBAPgBAZgCCqACpQ6oAgDCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwLxBeLDG2WKKb0nkgcFMS40LjWgB-ZAsgcFMC40LjW4B6EOwgcHMC4zLjYuMcgHMw&sclient=gws-wiz&sei=XPqBaL22OtrNkPIPs_zr4Qk, 类型=1, 主框架=True
+2025-07-24 17:18:16,094 - DEBUG - 悬停链接: 
+2025-07-24 17:18:17,349 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:18:18,066 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:18:19,414 - DEBUG - 悬停链接: 
+2025-07-24 17:18:19,447 - DEBUG - 悬停链接: https://www.google.com/search?sca_esv=a500fe4c35fb992d&q=本机IP&udm=2&fbs=AIIjpHybaGNnaZw_4TckIDK59RtxzhN-zPLOQlOthwdFc1z8xdIAyg6_Ea865cNowKrZE6P243OXO3Sel1yClE48yl-UCFtxRzXuLQETLRP_IgKTkRkqitU5e7AxW8wAXml7EMTCXeZmBxdb5nfCbawmX6XoUvGDJVDgJNHAvbzgT-CYUT41kxRti0EJFXn_NPjM8aVzHVMypNuLADsqpREr9QMYq9WQbg&sa=X&ved=2ahUKEwj9hJT0lNWOAxVmJ0QIHZttBQoQtKgLKAJ6BAgSEAE
+2025-07-24 17:18:19,462 - DEBUG - 悬停链接: 
+2025-07-24 17:18:22,181 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:18:22,607 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=6, 主框架=True
+2025-07-24 17:18:22,609 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=0, 主框架=True
+2025-07-24 17:18:22,948 - DEBUG - 悬停链接: 
+2025-07-24 17:18:24,599 - DEBUG - 悬停链接: 
+2025-07-24 17:18:24,599 - DEBUG - URL 变化: https://ip.900cha.com/
+2025-07-24 17:18:24,601 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=1, 主框架=True
+2025-07-24 17:18:25,106 - DEBUG - 悬停链接: 
+2025-07-24 17:18:28,482 - DEBUG - 悬停链接: https://ip.900cha.com/49.159.72.38.html
+2025-07-24 17:18:28,496 - DEBUG - 悬停链接: 
+2025-07-24 17:18:29,312 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:18:29,325 - DEBUG - 悬停链接: 
+2025-07-24 17:18:29,971 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:18:29,971 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:18:29,971 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:18:29,971 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:18:29,975 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:18:29,996 - DEBUG - 新标签页添加成功
+2025-07-24 17:18:30,017 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:18:30,019 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:18:30,238 - DEBUG - 悬停链接: 
+2025-07-24 17:18:30,238 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:18:30,243 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:18:30,463 - DEBUG - 悬停链接: 
+2025-07-24 17:18:43,062 - DEBUG - 悬停链接: https://ip.900cha.com/113.94.43.60.html
+2025-07-24 17:18:43,078 - DEBUG - 悬停链接: https://ip.900cha.com/#
+2025-07-24 17:18:43,086 - DEBUG - 悬停链接: 
+2025-07-24 17:22:12,070 - DEBUG - 悬停链接: https://zishu.900cha.com/
+2025-07-24 17:22:12,086 - DEBUG - 悬停链接: 
+2025-07-24 17:22:12,669 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:22:12,686 - DEBUG - 悬停链接: 
+2025-07-24 17:22:13,236 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:22:13,286 - DEBUG - 悬停链接: 
+2025-07-24 17:22:15,671 - DEBUG - 悬停链接: https://www.900cha.com/
+2025-07-24 17:22:15,687 - DEBUG - 悬停链接: 
+2025-07-24 17:22:16,413 - DEBUG - 刷新当前页面
+2025-07-24 17:22:16,414 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=4, 主框架=True
+2025-07-24 17:22:16,604 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:22:16,621 - DEBUG - 悬停链接: 
+2025-07-24 17:22:17,268 - DEBUG - 悬停链接: 
+2025-07-24 17:22:18,754 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:22:18,803 - DEBUG - 悬停链接: 
+2025-07-24 17:22:19,468 - DEBUG - 刷新当前页面
+2025-07-24 17:22:19,469 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=4, 主框架=True
+2025-07-24 17:22:19,717 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:22:19,730 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753348939&plat=9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&aiapm=0.1432745739605472&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.6700156017866196&aiactd=0.5423&aicct=0.7239952533530682&aicctd=0.5799&ailct=0.5917257011471924&ailctd=0.65&aimart=6&aimartd=4&dt=1753348939272&bpp=6&bdt=2010&idt=434&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&nras=1&correlator=5975304914200&frm=20&pv=2&u_tz=480&u_his=3&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=95362655%2C95365698%2C95366913%2C42533294%2C95366854%2C95359266%2C95367172&oid=2&pvsid=321510406274592&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=457, 类型=5, 主框架=False
+2025-07-24 17:22:19,740 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753348939&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753348939278&bpp=2&bdt=2016&idt=456&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&prev_fmts=0x0&nras=2&correlator=5975304914200&frm=20&pv=1&u_tz=480&u_his=3&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=95362655%2C95365698%2C95366913%2C42533294%2C95366854%2C95359266%2C95367172&oid=2&pvsid=321510406274592&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=461, 类型=5, 主框架=False
+2025-07-24 17:22:19,959 - DEBUG - 悬停链接: 
+2025-07-24 17:22:19,959 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:22:19,985 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:22:19,992 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753348939&plat=9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&aiapm=0.08162353945737968&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.7114296527970128&aiactd=0.5423&aicct=0.7119981526052579&aicctd=0.5799&ailct=0.6753703881854342&ailctd=0.65&aimart=7&aimartd=4&dt=1753348939967&bpp=7&bdt=11&idt=13&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&nras=1&correlator=6483766004833&frm=20&pv=2&u_tz=480&u_his=3&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=42531705%2C95362655%2C95365700%2C95366913%2C42533293%2C95366848%2C95359265%2C95367170&oid=2&pvsid=8791277969958844&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=24, 类型=5, 主框架=False
+2025-07-24 17:22:20,010 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753348940&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753348939974&bpp=1&bdt=19&idt=28&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&prev_fmts=0x0&nras=2&correlator=6483766004833&frm=20&pv=1&u_tz=480&u_his=3&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=42531705%2C95362655%2C95365700%2C95366913%2C42533293%2C95366848%2C95359265%2C95367170&oid=2&pvsid=8791277969958844&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=35, 类型=5, 主框架=False
+2025-07-24 17:22:20,814 - DEBUG - 刷新当前页面
+2025-07-24 17:22:20,815 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=4, 主框架=True
+2025-07-24 17:22:20,866 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html#RS-0-&adk=1812271808&client=ca-pub-1865255241075286&fa=8&ifi=3&uci=a!3, 类型=5, 主框架=False
+2025-07-24 17:22:21,076 - DEBUG - 悬停链接: 
+2025-07-24 17:22:21,076 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:22:21,097 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:22:21,105 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753348941&plat=9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&aiapm=0.1542&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.5423&aiactd=0.5423&aicct=0.7&aicctd=0.5799&ailct=0.5849&ailctd=0.65&aimart=4&aimartd=4&dt=1753348941083&bpp=6&bdt=12&idt=9&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&nras=1&correlator=6594983152022&frm=20&pv=2&u_tz=480&u_his=3&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=95362656%2C95366913%2C95366846%2C95359266%2C95367172&oid=2&pvsid=3661744086717148&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=20, 类型=5, 主框架=False
+2025-07-24 17:22:21,115 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753348941&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753348941089&bpp=1&bdt=18&idt=21&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&prev_fmts=0x0&nras=2&correlator=6594983152022&frm=20&pv=1&u_tz=480&u_his=3&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=95362656%2C95366913%2C95366846%2C95359266%2C95367172&oid=2&pvsid=3661744086717148&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=25, 类型=5, 主框架=False
+2025-07-24 17:22:21,934 - DEBUG - 刷新当前页面
+2025-07-24 17:22:21,934 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=4, 主框架=True
+2025-07-24 17:22:22,153 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html#RS-0-&adk=1812271808&client=ca-pub-1865255241075286&fa=8&ifi=3&uci=a!3, 类型=5, 主框架=False
+2025-07-24 17:22:22,157 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html#RS-2-&adk=1812271804&client=ca-pub-1865255241075286&fa=4&ifi=4&uci=a!4&btvi=1, 类型=5, 主框架=False
+2025-07-24 17:22:22,182 - DEBUG - 导航请求: URL=https://pagead2.googlesyndication.com/pagead/s/cookie_push_onload.html#aHR0cHM6Ly9kY2xrLW1hdGNoLmRvdG9taS5jb20vbWF0Y2gvYm91bmNlL2N1cnJlbnQ_bmV0d29ya0lkPTE0MDAwJnZlcnNpb249MSZnb29nbGVfZ2lkPUNBRVNFSWpGWmEtLTVJeWx1RXlkSFNvX1MwcyZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVJXNGt2MnJiSWtsM3dhX005WlJPbS1ER2ZKQWhsQnJSREszY3h2MUw5ZnIxY3hLOGUzUFNrcnVTVVhwcDNlVlcta1BuVkY3S05qa1ZPTFVwR0Y4X3U2ZDlwRXZKQmVYTXpPSEx6ME9mX1h4MThZb3lpRUxsckN6Nm40elA5VE1fYWdfS0t2QXMxX1diSQ==,aHR0cHM6Ly9zeW5jLmZvdXQuanAvc3luYz94aWQ9Z29vZ2xlYWRleCZnX3BpeGVsPSZnb29nbGVfZ2lkPUNBRVNFSHJvVXA5Wl9lRTZuMkJFWUZoZkFoYyZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVRLOEtZVm53bk4yMVk3Sldtai1Tck1rblpTdFRjZk1wYzBKX3h0SkFGMDNlWFJIenpqMjYyWWhidmxlMFNZMUxjcFJwVjNyWUNraVlVQVBoZHJrdzZaVF92OW1OQVFCWkJIU3MtLVZicEcwQmdHTGduT0lKTjA4Zjc1U3VnUlQ2bUs2WjNQcHZsdWFCYw==,aHR0cHM6Ly9kaXMuY3JpdGVvLmNvbS9kaXMvdXNlcnN5bmMuYXNweD9yPTQmcD0xNCZjcD1nb29nbGUmY3U9MSZ1cmw9aHR0cHMlM0ElMkYlMkZjbS5nLmRvdWJsZWNsaWNrLm5ldCUyRnBpeGVsJTNGZ29vZ2xlX25pZCUzRGNqcCUyNmdvb2dsZV9obSUzRCU0MCU0MENSSVRFT19VU0VSSUQlNDAlNDAlMjZnb29nbGVfcHVzaCUzREFYY29PbVM3UFh3bVFjclNfdnZ3SWdtd2Z3TENjZjRmNDhLdEVhVU5uTlo1S1oxbWxwN1hDdjlFOXVyUlpaRnE4dS1SRTdERDhxNWpoNEVUck9KaEtmaWk4Q1lxaHh3M1k4dGRzc3NUYWgwMTVGMVRDNE9rcWt2YjRMRVQ2dUFzMS1NT3Bidkd0aHBFSnJ0dDJkNCZnb29nbGVfZ2lkPUNBRVNFSWRiN2RHMFZaZEdxdjE3MUlTS3o3byZnb29nbGVfY3Zlcj0x,aHR0cHM6Ly9kcy51bmNuLmpwL2RvdWJsZWNsaWNrLzAvc3luY19wdXNoP2dvb2dsZV9naWQ9Q0FFU0VHbmw5YXNGeVBsLXBfdnhaSV9PZWFZJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tVGNON1F5ZWxiYkJzNFNSNVZZRlp5VUxOczc0aGJYVnN0bnJ5UDUzN2VyX2ZRS3NtQ0lWUk9uMVJrS2dQaUk5YU9GYWdBYmI0dlRVSEdQUmFVNW1oNExPSzJCXzRDZDk2Vkg4RkFDR2RkQXZiVFdmLWJkdWNheGNVVU1lWnFzU1oyZ1I0UWc5TDEzc3c=,aHR0cHM6Ly9vbmV0YWctc3lzLmNvbS9tYXRjaC8_aW50X2lkPTE5JnJlZGlyPTEmZ29vZ2xlX2dpZD1DQUVTRVBSUTVHOEUyaUd6QkpFM3RVdnczRVUmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21TajNodDhCZi1QeExuYjV0TF9oOU1rYVB1OXoxbUYxdU9GUUp0TTFFZmFISVlBMTFYY2VBZGdENUlLeElSTy1BcXZmTTNDaGxTbDYwY1MzMXZEOWc2bDNQVWlyTDByNHZTYjhQTEFsWGJITDJCa3ZoRVp1Y0Y3SHRGUnh4Wm12U0lPSGNDOGJYbGdKenc=,aHR0cHM6Ly9ndHJhY2UubWVkaWFnby5pby9qdS9jcy9nb29nbGU_Z29vZ2xlX2dpZD1DQUVTRUozSElucnYzUXU5d2h4bS1taWR5UDAmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21UWDFvRm9hZkpoaGF0WUlzY2FlYWxKSlljYnJLTktTZVFTcTNSZ0JjNEdVa08yeFk1TE9BV0RUcHA4OGpMdVQ4QXRMRnllMl9FYWdwSnhoLW1OcnBQUGNlcllZZkFpWHd2QVd6LW1XOTNha1JNeXhZZ25DQnJJTGhTTEYwNDROWFVFdjFMY0taeEFpejhH,aHR0cHM6Ly90cmFja2luZy5wcmlzbXBhcnRuZXIuc210LmRvY29tby5uZS5qcC9zeW5jL2FkeD9nb29nbGVfZ2lkPUNBRVNFRXU5eWxiSGJ3V2sxRG5WNTBMejV0cyZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVMxU3I4emVFMmVrX1RxblYtT2Z2ZFZXVXFMRTVaS05xajFIVGk2OU1DVGNQSzBPcE85bm1LQTAyX01lWW1makdDNFU4YUp1QVJGWXlqZHloNGRBMTJBLXNJeUd1ZEsxWlFQV0tKMGVyM01VMlVKdEpGdmRmVVYyaHpSX3RxdjFTcGJQQzdFeGltbXNtSTA=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzSXZ6eEk0S01nQXZnS3VieFpJb2J4UF9XaTF3YWxCXzZ2bXoyQWp3VlJEOGxnb2ppNC1tQmZ0VnZXYy1UOGhBcy1icUd0YXZVTQ==, 类型=5, 主框架=False
+2025-07-24 17:22:22,189 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/xbbe/pixel?d=CInSVRCfg1YYgfbIugIwAQ&v=APEucNXG6uBYuwje27nnochrxjYZh2LhhWkJUNtQO9NUcMI6zTX7VWtIvRjp0yjbduPL7PvH81tAmkhOQ-0VRA2BHY1ihX4yDw, 类型=5, 主框架=False
+2025-07-24 17:22:22,199 - DEBUG - 导航请求: URL=https://pagead2.googlesyndication.com/pagead/s/cookie_push_onload.html#aHR0cHM6Ly9hLnRyaWJhbGZ1c2lvbi5jb20vaS5tYXRjaD9wPWI2JnU9Q0FFU0VDNElLX0UxVlNkeUdiaTRKZDY3cnN3Jmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tUUZSQ2xuZ25qQl81QUJfdUZlV3FPSDFUbkpLdTRNNVJuTXAyTU9ZbkEzN2luUjQwNkJGd05JNmNkeERvbW81YWNtdHltYVcxTWlSWHY3ZkRibEN6blp3OVlkOGhBVHNXdEk3T3hpaUxJS1h5NlFDNk1zUzhfNEoxeERhYjM0OWxmT1A3Vy1iTGJYZ1VzJnJlZGlyZWN0PWh0dHBzJTNBLy9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbCUzRmdvb2dsZV9uaWQlM0RleHAlMjZnb29nbGVfcHVzaCUzREFYY29PbVFGUkNsbmduakJfNUFCX3VGZVdxT0gxVG5KS3U0TTVSbk1wMk1PWW5BMzdpblI0MDZCRndOSTZjZHhEb21vNWFjbXR5bWFXMU1pUlh2N2ZEYmxDem5adzlZZDhoQVRzV3RJN094aWlMSUtYeTZRQzZNc1M4XzRKMXhEYWIzNDlsZk9QN1ctYkxiWGdVcyUyNmdvb2dsZV91bGElM0QyNzg2OTU0JTI2Z29vZ2xlX2htJTNEJTI0VEZfVVNFUl9JRF9FTkMlMjQ=,aHR0cHM6Ly9zeW5jLXRtLmV2ZXJlc3R0ZWNoLm5ldC91cGkvcGlkLzV3M2pxcjRrP3JlZGlyPWh0dHBzJTNBJTJGJTJGY20uZy5kb3VibGVjbGljay5uZXQlMkZwaXhlbCUzRmdvb2dsZV9uaWQlM0RnOGY0N3MzOWUzOTlmM2ZlJTI2Z29vZ2xlX2htJTNEJTI0JTdCVE1fVVNFUl9JRF9CQVNFNjRFTkNfVVJMRU5DJTdEJmdvb2dsZV9naWQ9Q0FFU0VGeDBpQy0wYm83WFZkcW55RHdPMWtBJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tVHJLc1l6eWtNcVRUbnNSZlh4RVdpLVBlT2UzRENBYXFfSmxjZVNMaVJyZUdTdUpMNXRTbEJ5QVpoazZTUnBxWnp6dFpVVWVhWVhfMmlfcXYwSVpFQXI1eXlRMS1VbGF1TTNGVWdzZy1ldVhNSHNBZDVYWnl5QjhXSjRhUDlwaVZ4WFZtSG5MQmpjZ1E=,aHR0cHM6Ly9tYXRjaC5hZHNydnIub3JnL3RyYWNrL2NtZi9nb29nbGU_Z29vZ2xlX2dpZD1DQUVTRUczOXV6Sjg3dlNDalJabTdfemxfVHMmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21USlI2SDhxVk13S2pkeUtvb090eGtRNkM1ZEx5TkIyajRta3pfemZ1T05PbTc5b0lJQlRIX3ZEaXpvM2lxUWI5OWZyWjhkNXFEVGpSSkowazZFN1AwbDh1Wk9iTFRqa0NYZWx4c2Vrc0xDN21Bcm9POVFPSElqVVozbGtqN3JyeG5ySFJpdHNDbHM3TjQ=,aHR0cHM6Ly9hZHMudHJhdmVsYXVkaWVuY2UuY29tL2dvb2dsZV9waXhlbD9nb29nbGVfZ2lkPUNBRVNFSlZvM0JKd0plSlBpVHdIX3ZXeGcxNCZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVJ6QVlOWmFzLXdGLVd3NllPVWxDalY0TzZRRkQ3cU9LMDdlUHR2c1U1R25BaFVxYnljS1NYUGFCUnZmTFF3aEVKSURzcE9DQ3F0M0hpZFhTbThhS0JFVE1PWmdhRXpPQTV2clpvNGF5M2xGYnZLSldzZS1ya3lqTDVBWVlqMnFON3VqNTV5Z3U1UXRKVQ==,aHR0cHM6Ly9kcy51bmNuLmpwL2RvdWJsZWNsaWNrLzAvc3luY19wdXNoP2dvb2dsZV9naWQ9Q0FFU0VHbmw5YXNGeVBsLXBfdnhaSV9PZWFZJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tVGFFNjRISWpUckVRYjU1Z1ptMUtYb2xGY2dtRE5BRDNqdVBWM25kZ013WVZJVlh5TE1KcExGMWJhM3pZV3I3TENCUDZ1RS1HcnI2cEg1bTJYUXgxMmt0RWlvWXZ3NFJxaFMtc2hkQ1FlZndHNGk0WEh2ZVFYenF4VVNnVmphNjJLZ3l3ZWRfQmZvMVAw,aHR0cHM6Ly9vbmV0YWctc3lzLmNvbS9tYXRjaC8_aW50X2lkPTE5JnJlZGlyPTEmZ29vZ2xlX2dpZD1DQUVTRVBSUTVHOEUyaUd6QkpFM3RVdnczRVUmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21SWmJUVXF0SVN1YnhtQkdCR211UWNuZzlsb0NrN0dQYXYySzFKOEdZcW1vOE51UHIxT1VhSExsR1JqX0pUa3RHeFFVTU9IMjVuYXAzOEt2Z1VoRnpUYXc2X1lLNE9ncWdZYzFUS196MXBBeUkzTkNnZVV6SjlfWFVJcDlmYnVOS2xaQ1RtZF9FNW1ZZw==,aHR0cHM6Ly9ndHJhY2VuZXAuYWRtYXN0ZXIuY2MvanUvY3MvZ29vZ2xlP2dvb2dsZV9naWQ9Q0FFU0VPWHIzQTZLNFVmdlRYenlRRGZZaERvJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tVDdIU215c3pQNEdJY1JCQlY4UGRHYTJZTG95d3pCVU1qSnAtNTVtblNyUkhaSWk3Qk41QVJpcTRrRjBpSGd2Z09WN19na2FFSnY3cmZPYkM2ZkVreTZqM0xFTDJMQ2JkX1ZYa3ZadTRnUDVDMkxXb01NaGJGNHpDZFlxZmRYT05GRElFSFpVa3FtWWg4Ug==,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzTHg1S3pKa3pXQUlkLWhZS3AzLV9xZkVkOGg4UkM5QjBVNUlxeDNNUWgtVWJnUlhQUU01UWFwbkt4WEh1RmNMY3dBb0puZmpR, 类型=5, 主框架=False
+2025-07-24 17:22:22,207 - DEBUG - 悬停链接: 
+2025-07-24 17:22:22,227 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:22:22,234 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753348942&plat=9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&aiapm=0.1542&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.5423&aiactd=0.5423&aicct=0.7&aicctd=0.5799&ailct=0.5849&ailctd=0.65&aimart=4&aimartd=4&dt=1753348942214&bpp=6&bdt=9&idt=9&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&nras=1&correlator=6836142787709&frm=20&pv=2&u_tz=480&u_his=3&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=31093576%2C95362656%2C95366915%2C95344789%2C95359265%2C95367168&oid=2&pvsid=5654140104454345&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=19, 类型=5, 主框架=False
+2025-07-24 17:22:22,245 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753348942&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753348942220&bpp=1&bdt=15&idt=20&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&prev_fmts=0x0&nras=2&correlator=6836142787709&frm=20&pv=1&u_tz=480&u_his=3&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=31093576%2C95362656%2C95366915%2C95344789%2C95359265%2C95367168&oid=2&pvsid=5654140104454345&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=24, 类型=5, 主框架=False
+2025-07-24 17:22:22,892 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html#RS-0-&adk=1812271808&client=ca-pub-1865255241075286&fa=8&ifi=3&uci=a!3, 类型=5, 主框架=False
+2025-07-24 17:22:22,895 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html#RS-2-&adk=1812271804&client=ca-pub-1865255241075286&fa=4&ifi=4&uci=a!4&btvi=1, 类型=5, 主框架=False
+2025-07-24 17:22:22,916 - DEBUG - 导航请求: URL=https://pagead2.googlesyndication.com/pagead/s/cookie_push_onload.html#aHR0cHM6Ly91bS5zaW1wbGkuZmkvZ3BfbWF0Y2g_Z29vZ2xlX2dpZD1DQUVTRUNTN1RsMmJKOThZZG11aTRDTlpmRm8mZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21UdjBPOExQSHlHMFFGN2hUTFBudFVpQ3FTWUdMazZRU2R0NjRraXVWV05fXzZVQjZoX3FIZHpqc0Ita2Fhd0FaNDNUeVMxS19FaWlmR0lqNDRtdUxTTURyMUhtZTgwRDg4,aHR0cHM6Ly9jci1wMS5sYWRzcC5jb20vY29va2llc2VuZGVyLzE_Z29vZ2xlX3B1c2g9QVhjb09tUnhCLVR0M1EzUXZSNTBNR0ZPa1lWZ1pnX1hJU29EMC1ZbUVkX1ZUckU5V3VMZmwtamYxb2JUTXc5cTVOUFVzUEFDeUo3WVFlOVJYejUxc1hRYjZGNDFWcjlfSGxEaVpYTSZnb29nbGVfZ2lkPUNBRVNFTGdmQTdSUHJvUWhGRHNrZkdKZE1kYyZnb29nbGVfY3Zlcj0x,aHR0cHM6Ly90ci5ibGlzbWVkaWEuY29tL3YxL2FwaS9zeW5jL0FkeFBpeGVsP2dvb2dsZV9naWQ9Q0FFU0VQLTBCQ1VPRnZwSklONEtNbmhqaHUwJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tUlFtYnNQZnMycHV1YTlOUDVRU1ZDT1QxNElTNkdOQmozeVo2eC1ZYkRPU0FWXzd5dVRoYm5MSVRvZEtpNkZiX3diZEpBazVYdl9YRER1Tzl3TjVSdW9RUndLSFFzUWZ3,aHR0cHM6Ly94LmJpZHN3aXRjaC5uZXQvc3luYz9zc3A9Z29vZ2xlJmdvb2dsZV9naWQ9Q0FFU0VIQ2lsMjQ4NVBMRC1iM2FxTDBXRzZFJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tUWdqNUpwX3haX2dqNzhNYmJzVmtJR2RTd3lnei0xazJKa0FDNWtRYkZqb0V6Sy1tMFFhdjhnN1BpN1VfbW5tZUFUNlpfbExCR0VtbnE2NGZ4bUhnQkhlVnhBVDg4WWUwVQ==,aHR0cHM6Ly9vbmV0YWctc3lzLmNvbS9tYXRjaC8_aW50X2lkPTE5JnJlZGlyPTEmZ29vZ2xlX2dpZD1DQUVTRVBSUTVHOEUyaUd6QkpFM3RVdnczRVUmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21TU0Y0bHp2QTVyYkctNk9MWDBiYkZTY3EyMEpLQjhkNjF2dFRMSmJUak5UbFQ0RGtOeVg0d1lfd3Y1V2VuOFdWVFh4UHUwUFRkRVZmTXByNFAwc1RDTEl0Q2RVdFViazFz,aHR0cHM6Ly9ndHJhY2UubWVkaWFnby5pby9qdS9jcy9nb29nbGU_Z29vZ2xlX2dpZD1DQUVTRUozSElucnYzUXU5d2h4bS1taWR5UDAmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21RRW1WWWhydkpjcUFQTkJxclNabU5WaGIxT2RrZmZRU093VkRQWER0RWl0YU9oeHBfZ21lSTZXaDRzYkl1X1kyQzI0dUFkR0phV2VwOVl3SGFwTGpTVkY5TDFRZkdhTktr,aHR0cHM6Ly9hbmFseXRpY3MucGFuZ2xlLWFkcy5jb20vYXBpL2FkL3VuaW9uL2dnX2Nvb2tpZV9tYXRjaGluZz9nb29nbGVfZ2lkPUNBRVNFQ21YR3lPVnVNdTdPNDdSdzFQMWRnUSZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVNoejFnb0tYMkFvQmlYTXFmNmE0QWVCdk5sbXdFaGk1c1VpZkRpRXl1ZWJFc0o0d1VHV1psQ2VDMVVGVngzanVXNzFpbGR2Vk9JMkhUUkRQSUg0cHhNMUlQU2RuSjF6cmRP,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzSXdlMDA3SzFHSzJiYmlEandGTDA3TUFTM3ltbENhNVpKcjhqaEhYU2RsUGlnc25xcm91MXpkVVlvazhNQUdvREhkbGpsaEM2WQ==, 类型=5, 主框架=False
+2025-07-24 17:22:22,922 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/xbbe/pixel?d=CInSVRCfg1YYgfbIugIwAQ&v=APEucNVAAoLrPlyeJ_wrvwMS8XXCmPZv0pgzPL0gOo9TvVTlMoGQ0lLqq6D-bbeClyuSnLbtTHI7KdZiDNb6dgkCOtuou9KDqA, 类型=5, 主框架=False
+2025-07-24 17:22:22,931 - DEBUG - 导航请求: URL=https://pagead2.googlesyndication.com/pagead/s/cookie_push_onload.html#aHR0cHM6Ly91bS5zaW1wbGkuZmkvZ3BfbWF0Y2g_Z29vZ2xlX2dpZD1DQUVTRUNTN1RsMmJKOThZZG11aTRDTlpmRm8mZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21TZHB3NG5QMF82QlVqb0gxUmF4TjZMdmszZGRxdHVPOXdNcjZZR0hFeGY1cHlFV1hkdnlkclZWTGkwQUQ2bnVac29URlEtc3RtYTA1aGtIVVF2Q0FpUDVkWEFLeGwxTjZIQlZ1RHFLWUl2RGpTbGN4ZmVGTU40N3B2aUxmSUo0X3Rwd1NfNTBrakpSSXozeS00LVQ2dDJIUQ==,aHR0cHM6Ly9zeW5jLmZvdXQuanAvc3luYz94aWQ9Z29vZ2xlYWRleCZnX3BpeGVsPSZnb29nbGVfZ2lkPUNBRVNFSHJvVXA5Wl9lRTZuMkJFWUZoZkFoYyZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVNuVU4xdVZ1dXVmclkxbVVjNGxxMDZhRjVKN2lOUFBJNHd6QUo4VVBCb3RyS3k2UFdPUk5vSzlXN0pPODFkSVhOaHcyVjNnamJpcnJBTTZTcFpLMXZfUDNvX18xeWZHTGpINDJlMGdKTEdiNXpNamJJRU0zSjdhNHhrdngzOVBLVndzMlFxb2Z3WExFZk44RWNpbERySWtR,aHR0cHM6Ly9keW5hbHlzdC1zeW5jLmFkdGRwLmNvbS9waXhlbD9waWQ9MTAmZ29vZ2xlX2dpZD1DQUVTRUZRYWs5TEIwbk56ZjVlWGxKaW11R1EmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21Tek9qUTloNUlVcUhyN2RsYnF5REl5VkFkQW5FOUxYamd6ejFEWkp2ZzdWbURPWjhkUE9JR0FjVUN0RXZfTHZmV2w1QTlwaWxHUlc3ODQ0ZEdUTFVERzRkTGFhM1ZUenNqMHdlc1lXSFFmeFc4TklDMjFFbXpEeC0wZnRoLTY0X29oUk1xb3JRbnh2Uy1Zem5QcGtHYURrdw==,aHR0cHM6Ly9tYXRjaC5wcm9kLmJpZHIuaW8vY29va2llLXN5bmMvYWR4P2dvb2dsZV9naWQ9Q0FFU0VGQnZSek1MUW5EZXoxTWlkZS1tamN3Jmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tUzlsc0ExbVBsU2h3YmZKbmJSSmxBWWhzT2l3Ui1oS1FBSUFuYVE3bEdSN2hna2NIUkRCOGxDV3hVeElUU1l6MEZWUGNobVhqQ3kwNUdId1M0d0dYOHQ4ME5QSl90aElUcDdJMlduWkVCWkxfUF93N3doaEc1T3I5elNfMkM0T055emZ0SVFLcEdKbkpSYnNqRzBpcF91QXN3,aHR0cHM6Ly9zeW5jLnNydi5zdGFja2FkYXB0LmNvbS9zeW5jP25pZD0xNTQmZ29vZ2xlX2dpZD1DQUVTRUJ6ZndVYW1sRDlidEwtTHNFSUJsMWMmZ29vZ2xlX2N2ZXI9MSZnb29nbGVfcHVzaD1BWGNvT21SVXRXY1NKNnkyeWl4Y2gyQlhRTFRJc3dacFAxQlZYc25STjB3ei1QUWVwZzE2eXdQX1ZCQUFhcU14eUhIYVZlT25JT05qMzFNUThYWU4wNHdZR0lSV2hldmpsLXZxbV82TG91WjJQY09GbmUyX2xydjgzX0VxTm5nM0xoVTN6eFk1NnFLUGk4QjczTmtIc2hCVW5Oc0hHaTA=,aHR0cHM6Ly9kcy51bmNuLmpwL2RvdWJsZWNsaWNrLzAvc3luY19wdXNoP2dvb2dsZV9naWQ9Q0FFU0VHbmw5YXNGeVBsLXBfdnhaSV9PZWFZJmdvb2dsZV9jdmVyPTEmZ29vZ2xlX3B1c2g9QVhjb09tU0xQS1QyVzd2ZmgtRzctSTNYX0ZYOXJFVXg4dUotQkhFY0xCUWtSUTB5Q3hxQ24tNDBqNUN6aFBIbnMxWFhyV0xheS1iTE93U2VDMGg0Uks4VklLbGtpT2ZpaDEzTlBaSTRZYzFIdVBIWmlFa3lEQmxEc0hBWEp4VGY5WXRqX2NjbkRzVUJTTFFfV09ER3FwRHRiNWVJUU9r,aHR0cHM6Ly9hbmFseXRpY3MucGFuZ2xlLWFkcy5jb20vYXBpL2FkL3VuaW9uL2dnX2Nvb2tpZV9tYXRjaGluZz9nb29nbGVfZ2lkPUNBRVNFQ21YR3lPVnVNdTdPNDdSdzFQMWRnUSZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVRkbDJyanRxVHowQnZSeVhDTXVGZkI5Sk9WOUdpN0dYZ05NOVZYeTNnZTRXRTZsVUxWRWUxMkhPS2JYeG1ULXJoOWFUZklXUmtyZjJmOEd6TGFQRVhVZjVhNHpKVVM2U0FJbWJMdDFJZjFjY3lJVUZUTTN5dkJiejJDMTB3U3V2NWdNbzMtdjRNWEVKandpRFlfeEhFS1Z3MlM=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzSUE2TThpVkVNUWJIRnluTllZR0pKb1cxLUd4MVlST3owUmhkcXQ1VXVnQW40blNFN2Vaa1J5Wl83a1NHb2NKQ1dDREl4WjBR, 类型=5, 主框架=False
+2025-07-24 17:22:23,086 - DEBUG - 导航请求: URL=https://tpc.googlesyndication.com/sodar/62bHydCX.html, 类型=5, 主框架=False
+2025-07-24 17:22:24,095 - DEBUG - 导航请求: URL=https://s0.2mdn.net/sadbundle/2726047214396091663/index.html?ev=01_253, 类型=5, 主框架=False
+2025-07-24 17:22:32,338 - DEBUG - 导航请求: URL=https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html, 类型=5, 主框架=False
+2025-07-24 17:22:32,339 - DEBUG - 导航请求: URL=https://www.google.com/recaptcha/api2/aframe, 类型=5, 主框架=False
+2025-07-24 17:22:33,035 - DEBUG - 悬停链接: https://www.900cha.com/
+2025-07-24 17:22:33,062 - DEBUG - 悬停链接: 
+2025-07-24 17:22:34,699 - DEBUG - URL 变化: https://ip.900cha.com/#google_vignette
+2025-07-24 17:22:34,707 - DEBUG - 导航请求: URL=https://ip.900cha.com/#google_vignette, 类型=1, 主框架=True
+2025-07-24 17:22:34,983 - DEBUG - 悬停链接: 
+2025-07-24 17:22:35,048 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:22:35,061 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753348955&plat=9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&itsi=0&aiapm=0.08162353945737968&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.7114296527970128&aiactd=0.5423&aicct=0.7119981526052579&aicctd=0.5799&ailct=0.6753703881854342&ailctd=0.65&aimart=7&aimartd=4&dt=1753348955002&bpp=9&bdt=21&idt=37&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&nras=1&correlator=6965900893845&frm=20&pv=2&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=42532523%2C95362656%2C95366914%2C95366848%2C95359265%2C95367171&oid=2&pvsid=1580487890102162&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=58, 类型=5, 主框架=False
+2025-07-24 17:22:35,071 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753348955&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753348955011&bpp=2&bdt=30&idt=55&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&prev_fmts=0x0&nras=2&correlator=6965900893845&frm=20&pv=1&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=42532523%2C95362656%2C95366914%2C95366848%2C95359265%2C95367171&oid=2&pvsid=1580487890102162&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=58, 类型=5, 主框架=False
+2025-07-24 17:22:35,673 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html#RS-0-&adk=1812271801&client=ca-pub-1865255241075286&fa=1&ifi=3&uci=a!3&btvi=1, 类型=5, 主框架=False
+2025-07-24 17:22:35,681 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html#RS-2-&adk=1812271804&client=ca-pub-1865255241075286&fa=4&ifi=4&uci=a!4&btvi=2, 类型=5, 主框架=False
+2025-07-24 17:22:35,695 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/xbbe/pixel?d=CInSVRCfg1YY9c29ugIwAQ&v=APEucNWLzyEdA6oWYs6w5E1O3E2EAz7Tebs4aSswCoBUVL6Uko-sHAyU4cdYyqItmQwiJ76WnrC-GoChEVtlk3dGrtg4bxNWCg, 类型=5, 主框架=False
+2025-07-24 17:22:35,704 - DEBUG - 导航请求: URL=https://pagead2.googlesyndication.com/pagead/s/cookie_push_onload.html#aHR0cHM6Ly9zeW5jLWRzcC5hZC1tLmFzaWEvZHNwL2FwaS9zeW5jL3NlbmQ_cz1nb29nbGUmcGl4ZWxfbWF0Y2g9eSZnb29nbGVfZ2lkPUNBRVNFTkxiY1hodHVlQU1CZTNrM0J6SzVRMCZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVFmeEVXa0kwTHNLS1lqMkRKZkdQbFBuR2ZBUFowYlhHSVBJMV9HR0FZeW83M3J0TUcyRmJvVWJDSUZoa1V1VG5ab21WdFpZMHFsMFM5NXRlTDZ1aHhVMEs3NzVZdFZRNFc2OFE=,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzTGtXcVFzMWFwMVdPWXhoalY1ZExtNmQ5M19yMDhFdGc=, 类型=5, 主框架=False
+2025-07-24 17:22:35,729 - DEBUG - 导航请求: URL=https://tpc.googlesyndication.com/sodar/62bHydCX.html, 类型=5, 主框架=False
+2025-07-24 17:22:35,737 - DEBUG - 导航请求: URL=https://s0.2mdn.net/sadbundle/14410433435325256108/160x600/index.html?ev=01_253, 类型=5, 主框架=False
+2025-07-24 17:22:38,109 - DEBUG - 导航请求: URL=https://pagead2.googlesyndication.com/pagead/s/cookie_push_onload.html#aHR0cHM6Ly9zeW5jLWRzcC5hZC1tLmFzaWEvZHNwL2FwaS9zeW5jL3NlbmQ_cz1nb29nbGUmcGl4ZWxfbWF0Y2g9eSZnb29nbGVfZ2lkPUNBRVNFTkxiY1hodHVlQU1CZTNrM0J6SzVRMCZnb29nbGVfY3Zlcj0xJmdvb2dsZV9wdXNoPUFYY29PbVNxQlVyenMwOHNlMWg3V2Y5U3AzR0VTQ2p5LVlvNFF5RUp4NDF1SzNxb3I4RlJPRlhKajhkQUdOZ1FDWUxjS0FCVW53dmZsM1VYUWRXZndPNzgwQ0plX1ExX2t5SVdkSEtJSjZ0QTA5ZjUyNWRXZlJ4WXM0X1ZaNFRkcE9mZklxS3hPU0VQdThpZ1RSaw==,aHR0cHM6Ly9jbS5nLmRvdWJsZWNsaWNrLm5ldC9waXhlbC9hdHRyP2Q9QUhORjEzSXpCMEgwVXVIdi1xOTdaUjhQVVhsamNWcm1DTWs3WGc=, 类型=5, 主框架=False
+2025-07-24 17:22:40,274 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:22:40,462 - DEBUG - 导航请求: URL=https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html, 类型=5, 主框架=False
+2025-07-24 17:22:40,462 - DEBUG - 导航请求: URL=https://www.google.com/recaptcha/api2/aframe, 类型=5, 主框架=False
+2025-07-24 17:22:40,548 - DEBUG - 导航请求: URL=https://tpc.googlesyndication.com/sodar/H0ZEmIz7.html, 类型=5, 主框架=False
+2025-07-24 17:22:44,627 - DEBUG - 设置 SOCKS5 代理: 127.0.0.1:7897
+2025-07-24 17:22:45,252 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:22:45,668 - DEBUG - 悬停链接: 
+2025-07-24 17:22:46,518 - DEBUG - 刷新当前页面
+2025-07-24 17:22:46,522 - DEBUG - 导航请求: URL=https://ip.900cha.com/#google_vignette, 类型=4, 主框架=True
+2025-07-24 17:22:46,917 - DEBUG - 悬停链接: 
+2025-07-24 17:22:46,984 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:22:46,997 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753348966&plat=9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&itsi=0&aiapm=0.13432327593702753&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.6732341734769461&aiactd=0.5423&aicct=0.5860505244018461&aicctd=0.5799&ailct=0.7138979868130366&ailctd=0.65&aimart=7&aimartd=4&dt=1753348966937&bpp=10&bdt=23&idt=37&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&nras=1&correlator=3710079044817&frm=20&pv=2&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=31093576%2C95362655%2C95366915%2C42533294%2C95366849%2C95359266%2C95367170&oid=2&pvsid=7353052022803329&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=59, 类型=5, 主框架=False
+2025-07-24 17:22:47,009 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753348967&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753348966947&bpp=2&bdt=32&idt=57&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&prev_fmts=0x0&nras=2&correlator=3710079044817&frm=20&pv=1&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=31093576%2C95362655%2C95366915%2C42533294%2C95366849%2C95359266%2C95367170&oid=2&pvsid=7353052022803329&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=61, 类型=5, 主框架=False
+2025-07-24 17:22:49,024 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:22:49,238 - DEBUG - 刷新当前页面
+2025-07-24 17:22:49,239 - DEBUG - 导航请求: URL=https://ip.900cha.com/#google_vignette, 类型=4, 主框架=True
+2025-07-24 17:22:50,006 - DEBUG - 导航请求: URL=https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html, 类型=5, 主框架=False
+2025-07-24 17:22:50,007 - DEBUG - 导航请求: URL=https://www.google.com/recaptcha/api2/aframe, 类型=5, 主框架=False
+2025-07-24 17:22:50,726 - DEBUG - 悬停链接: 
+2025-07-24 17:22:50,771 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:22:50,779 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753348970&plat=9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&itsi=0&aiapm=0.13432327593702753&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.6732341734769461&aiactd=0.5423&aicct=0.5860505244018461&aicctd=0.5799&ailct=0.7138979868130366&ailctd=0.65&aimart=7&aimartd=4&dt=1753348970734&bpp=8&bdt=13&idt=32&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&nras=1&correlator=5290632092347&frm=20&pv=2&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=95331832%2C95362656%2C95366913%2C95366849%2C95359266%2C95367171&oid=2&pvsid=739778644200095&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=44, 类型=5, 主框架=False
+2025-07-24 17:22:50,787 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753348970&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753348970742&bpp=1&bdt=21&idt=41&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&prev_fmts=0x0&nras=2&correlator=5290632092347&frm=20&pv=1&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=95331832%2C95362656%2C95366913%2C95366849%2C95359266%2C95367171&oid=2&pvsid=739778644200095&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=44, 类型=5, 主框架=False
+2025-07-24 17:22:50,867 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:22:50,885 - DEBUG - 悬停链接: 
+2025-07-24 17:22:51,052 - DEBUG - 悬停链接: https://baobao.900cha.com/
+2025-07-24 17:22:51,073 - DEBUG - 悬停链接: 
+2025-07-24 17:22:51,602 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:22:51,994 - DEBUG - 导航请求: URL=https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html, 类型=5, 主框架=False
+2025-07-24 17:22:51,995 - DEBUG - 导航请求: URL=https://www.google.com/recaptcha/api2/aframe, 类型=5, 主框架=False
+2025-07-24 17:23:01,767 - DEBUG - 悬停链接: https://colorpicker.900cha.com/
+2025-07-24 17:23:01,786 - DEBUG - 悬停链接: 
+2025-07-24 17:23:05,118 - DEBUG - 刷新当前页面
+2025-07-24 17:23:05,119 - DEBUG - 导航请求: URL=https://ip.900cha.com/#google_vignette, 类型=4, 主框架=True
+2025-07-24 17:23:05,624 - DEBUG - 悬停链接: 
+2025-07-24 17:23:05,692 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:23:05,705 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753348985&plat=9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&itsi=0&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.5423&aiactd=0.5423&aicct=0.7&aicctd=0.5799&ailct=0.5849&ailctd=0.65&aimart=4&aimartd=4&dt=1753348985644&bpp=9&bdt=22&idt=37&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&nras=1&correlator=386956687332&frm=20&pv=2&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=31093576%2C95362655%2C95363081%2C95366914%2C95352052%2C95359266%2C95367167&oid=2&pvsid=4075761619486102&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=59, 类型=5, 主框架=False
+2025-07-24 17:23:05,718 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753348985&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753348985653&bpp=2&bdt=31&idt=60&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&prev_fmts=0x0&nras=2&correlator=386956687332&frm=20&pv=1&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=31093576%2C95362655%2C95363081%2C95366914%2C95352052%2C95359266%2C95367167&oid=2&pvsid=4075761619486102&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=64, 类型=5, 主框架=False
+2025-07-24 17:23:06,662 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:23:07,063 - DEBUG - 导航请求: URL=https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html, 类型=5, 主框架=False
+2025-07-24 17:23:07,064 - DEBUG - 导航请求: URL=https://www.google.com/recaptcha/api2/aframe, 类型=5, 主框架=False
+2025-07-24 17:23:09,333 - DEBUG - 悬停链接: https://mimashengchengqi.900cha.com/
+2025-07-24 17:23:09,348 - DEBUG - 悬停链接: https://huilv.900cha.com/
+2025-07-24 17:23:09,349 - DEBUG - 悬停链接: 
+2025-07-24 17:23:09,818 - DEBUG - 悬停链接: https://huilv.900cha.com/
+2025-07-24 17:23:10,152 - DEBUG - 悬停链接: 
+2025-07-24 17:23:19,871 - DEBUG - 刷新当前页面
+2025-07-24 17:23:19,872 - DEBUG - 导航请求: URL=https://ip.900cha.com/#google_vignette, 类型=4, 主框架=True
+2025-07-24 17:23:26,262 - DEBUG - 悬停链接: 
+2025-07-24 17:23:26,336 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/html/r20250721/r20190131/zrt_lookup_fy2021.html, 类型=5, 主框架=False
+2025-07-24 17:23:26,349 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1753349006&plat=9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=184x680_l%7C207x680_r&format=0x0&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&pra=5&wgl=1&aihb=0&aiudt=1&asro=0&aifxl=29_18~30_19&itsi=0&aiapm=0.1409786906863915&aiapmd=0.1542&aiapmi=0.16&aiapmid=0.16&aiact=0.5820529801689861&aiactd=0.5423&aicct=0.7179951754331008&aicctd=0.5799&ailct=0.6031597736511882&ailctd=0.65&aimart=5&aimartd=4&dt=1753349006295&bpp=5&bdt=40&idt=31&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&nras=1&correlator=4260795779305&frm=20&pv=2&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1541&bih=757&scr_x=0&scr_y=0&eid=42531705%2C95362656%2C95366915%2C95366851%2C95359266%2C95366427%2C95367169&oid=2&pvsid=6748139558610055&tmod=362530706&uas=0&nvt=2&fsapi=1&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=1&uci=a!1&fsb=1&dtd=52, 类型=5, 主框架=False
+2025-07-24 17:23:26,362 - DEBUG - 导航请求: URL=https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1865255241075286&output=html&h=280&adk=1553151457&adf=995855647&pi=t.aa~a.3140457285~rp.4&w=1110&abgtt=6&fwrn=4&fwrnh=100&lmt=1753349006&rafmt=1&to=qs&pwprc=3948605292&format=1110x280&url=https%3A%2F%2Fip.900cha.com%2F%23google_vignette&fwr=0&pra=3&rpe=1&resp_fmts=3&wgl=1&fa=40&dt=1753349006300&bpp=2&bdt=45&idt=57&shv=r20250721&mjsv=m202507210101&ptt=9&saldr=aa&abxe=1&cookie=ID%3D7c28e26097caf544%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MZDPaQsVXTsdsMNNAZDpXOD9Sxoew&gpic=UID%3D0000116d2adcfa17%3AT%3D1753348945%3ART%3D1753348945%3AS%3DALNI_MYa6wca0VyWrzuuPc1KVFY2XM-ZqA&eo_id_str=ID%3D863890d3c94eef4f%3AT%3D1753348945%3ART%3D1753348945%3AS%3DAA-AfjY4u4xYEli9NDmI1poYXW-s&prev_fmts=0x0&nras=2&correlator=4260795779305&frm=20&pv=1&u_tz=480&u_his=4&u_h=1080&u_w=1920&u_ah=1037&u_aw=1920&u_cd=32&u_sd=1&dmc=8&adx=216&ady=392&biw=1541&bih=757&scr_x=0&scr_y=0&eid=42531705%2C95362656%2C95366915%2C95366851%2C95359266%2C95366427%2C95367169&oid=2&pvsid=6748139558610055&tmod=362530706&uas=0&nvt=2&fc=1920&brdim=100%2C67%2C100%2C67%2C1920%2C0%2C1600%2C933%2C1558%2C757&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1.03&psd=W251bGwsbnVsbCxudWxsLDNd&ifi=2&uci=a!2&fsb=1&dtd=61, 类型=5, 主框架=False
+2025-07-24 17:23:28,400 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:23:28,468 - DEBUG - 悬停链接: 
+2025-07-24 17:23:31,684 - DEBUG - 刷新当前页面
+2025-07-24 17:23:31,685 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=4, 主框架=True
+2025-07-24 17:23:32,432 - DEBUG - 悬停链接: 
+2025-07-24 17:23:33,202 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:23:33,706 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:23:34,408 - DEBUG - 导航请求: URL=https://ep2.adtrafficquality.google/sodar/sodar2/237/runner.html, 类型=5, 主框架=False
+2025-07-24 17:23:34,410 - DEBUG - 导航请求: URL=https://www.google.com/recaptcha/api2/aframe, 类型=5, 主框架=False
+2025-07-24 17:23:37,140 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=mfuBaKHnMqyrur8P2cGruAY&iflsig=AOw8s4IAAAAAaIIJqae22rxb5kZaNtFMcj6CEbX-gqXX&ved=0ahUKEwjhl4CLltWOAxWsle4BHdngCmcQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIlRhQ7QVY9BVwAXgAkAEAmAHwAaABng2qAQUwLjIuNrgBA8gBAPgBAZgCB6ACvQyoAgDCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAuGIAEGNEDGMcBwgIIEC4YgAQY1ALCAgUQLhiABJgDAfEFLNE6l5o_l16SBwMyLTegB6wqsgcDMi03uAe9DMIHCTAuMy4yLjEuMcgHQA&sclient=gws-wiz, 类型=2, 主框架=True
+2025-07-24 17:23:37,347 - DEBUG - 悬停链接: 
+2025-07-24 17:23:37,348 - DEBUG - URL 变化: https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=mfuBaKHnMqyrur8P2cGruAY&iflsig=AOw8s4IAAAAAaIIJqae22rxb5kZaNtFMcj6CEbX-gqXX&ved=0ahUKEwjhl4CLltWOAxWsle4BHdngCmcQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIlRhQ7QVY9BVwAXgAkAEAmAHwAaABng2qAQUwLjIuNrgBA8gBAPgBAZgCB6ACvQyoAgDCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAuGIAEGNEDGMcBwgIIEC4YgAQY1ALCAgUQLhiABJgDAfEFLNE6l5o_l16SBwMyLTegB6wqsgcDMi03uAe9DMIHCTAuMy4yLjEuMcgHQA&sclient=gws-wiz
+2025-07-24 17:23:37,354 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=mfuBaKHnMqyrur8P2cGruAY&iflsig=AOw8s4IAAAAAaIIJqae22rxb5kZaNtFMcj6CEbX-gqXX&ved=0ahUKEwjhl4CLltWOAxWsle4BHdngCmcQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIlRhQ7QVY9BVwAXgAkAEAmAHwAaABng2qAQUwLjIuNrgBA8gBAPgBAZgCB6ACvQyoAgDCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAuGIAEGNEDGMcBwgIIEC4YgAQY1ALCAgUQLhiABJgDAfEFLNE6l5o_l16SBwMyLTegB6wqsgcDMi03uAe9DMIHCTAuMy4yLjEuMcgHQA&sclient=gws-wiz, 类型=1, 主框架=True
+2025-07-24 17:23:37,559 - DEBUG - 悬停链接: 
+2025-07-24 17:23:37,561 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:23:38,598 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:23:38,881 - DEBUG - 悬停链接: 
+2025-07-24 17:23:38,974 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:23:39,111 - DEBUG - 悬停链接: https://www.ipaddress.my/?lang=zh_CN
+2025-07-24 17:23:39,564 - DEBUG - 导航请求: URL=https://www.ipaddress.my/?lang=zh_CN, 类型=6, 主框架=True
+2025-07-24 17:23:39,565 - DEBUG - 导航请求: URL=https://www.ipaddress.my/?lang=zh_CN, 类型=6, 主框架=True
+2025-07-24 17:23:39,567 - DEBUG - 导航请求: URL=https://www.ipaddress.my/?lang=zh_CN, 类型=0, 主框架=True
+2025-07-24 17:23:39,805 - DEBUG - 悬停链接: 
+2025-07-24 17:23:40,617 - DEBUG - 悬停链接: 
+2025-07-24 17:23:40,617 - DEBUG - URL 变化: https://www.ipaddress.my/?lang=zh_CN
+2025-07-24 17:23:40,621 - DEBUG - 导航请求: URL=https://www.ipaddress.my/?lang=zh_CN, 类型=1, 主框架=True
+2025-07-24 17:23:40,920 - DEBUG - 悬停链接: 
+2025-07-24 17:23:43,925 - DEBUG - 导航请求: URL=https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfEY9YdAAAAAEwvcjjoKYO1yQdAmR_lECQehJlV&co=aHR0cHM6Ly93d3cuaXBhZGRyZXNzLm15OjQ0Mw..&hl=en&v=3jpV4E_UA9gZWYy11LtggjoU&size=normal&anchor-ms=20000&execute-ms=15000&cb=k2lec4nd1ujm, 类型=5, 主框架=False
+2025-07-24 17:23:43,986 - DEBUG - 悬停链接: https://www.ip2location.com/demo/2605:52c0:2:aa5:1c0e:2fff:fefa:530
+2025-07-24 17:23:45,188 - DEBUG - 悬停链接: 
+2025-07-24 17:23:45,616 - DEBUG - 导航请求: URL=https://www.google.com/recaptcha/api2/bframe?hl=en&v=3jpV4E_UA9gZWYy11LtggjoU&k=6LfEY9YdAAAAAEwvcjjoKYO1yQdAmR_lECQehJlV, 类型=5, 主框架=False
+2025-07-24 17:23:45,834 - DEBUG - 悬停链接: https://www.ip2location.com/demo/2605:52c0:2:aa5:1c0e:2fff:fefa:530
+2025-07-24 17:23:46,494 - DEBUG - 悬停链接: 
+2025-07-24 17:24:09,083 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:24:09,083 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:24:09,083 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:24:09,083 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:24:09,087 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:24:09,110 - DEBUG - 新标签页添加成功
+2025-07-24 17:24:09,132 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:24:09,133 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:24:09,359 - DEBUG - 悬停链接: 
+2025-07-24 17:24:09,360 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:24:09,365 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:24:09,587 - DEBUG - 悬停链接: 
+2025-07-24 17:24:17,875 - DEBUG - 导航请求: URL=https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz, 类型=2, 主框架=True
+2025-07-24 17:24:18,083 - DEBUG - 悬停链接: 
+2025-07-24 17:24:18,084 - DEBUG - URL 变化: https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz
+2025-07-24 17:24:18,089 - DEBUG - 导航请求: URL=https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz, 类型=1, 主框架=True
+2025-07-24 17:24:18,313 - DEBUG - 悬停链接: 
+2025-07-24 17:24:19,015 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:24:19,367 - DEBUG - 悬停链接: https://gongjux.com/userAgentGenerator/
+2025-07-24 17:24:19,698 - DEBUG - 导航请求: URL=https://gongjux.com/userAgentGenerator/, 类型=6, 主框架=True
+2025-07-24 17:24:19,699 - DEBUG - 导航请求: URL=https://gongjux.com/userAgentGenerator/, 类型=0, 主框架=True
+2025-07-24 17:24:23,263 - DEBUG - 悬停链接: 
+2025-07-24 17:24:23,264 - DEBUG - URL 变化: https://gongjux.com/userAgentGenerator/
+2025-07-24 17:24:23,267 - DEBUG - 导航请求: URL=https://gongjux.com/userAgentGenerator/, 类型=1, 主框架=True
+2025-07-24 17:24:23,350 - DEBUG - 悬停链接: 
+2025-07-24 17:24:31,924 - DEBUG - 开始显示页面源代码
+2025-07-24 17:24:31,925 - DEBUG - 清理并加载初始内容
+2025-07-24 17:24:31,925 - DEBUG - 初始内容长度: 5000
+2025-07-24 17:24:31,925 - DEBUG - 初始化 HTML 高亮器
+2025-07-24 17:24:31,926 - DEBUG - 高亮器已绑定到 QTextEdit
+2025-07-24 17:24:31,937 - DEBUG - 开始异步格式化 HTML
+2025-07-24 17:24:31,937 - DEBUG - 页面源代码显示完成
+2025-07-24 17:24:31,958 - DEBUG - 格式化后内容长度: 62630
+2025-07-24 17:24:31,990 - DEBUG - 格式化内容已加载，长度: 62630
+2025-07-24 17:24:34,031 - DEBUG - 追加内容，当前长度: 10000
+2025-07-24 17:24:34,035 - DEBUG - 追加内容，当前长度: 15000
+2025-07-24 17:24:34,173 - DEBUG - 追加内容，当前长度: 20000
+2025-07-24 17:24:34,177 - DEBUG - 追加内容，当前长度: 25000
+2025-07-24 17:24:34,209 - DEBUG - 追加内容，当前长度: 30000
+2025-07-24 17:24:34,213 - DEBUG - 追加内容，当前长度: 35000
+2025-07-24 17:24:34,225 - DEBUG - 追加内容，当前长度: 40000
+2025-07-24 17:24:34,229 - DEBUG - 追加内容，当前长度: 45000
+2025-07-24 17:24:34,236 - DEBUG - 追加内容，当前长度: 50000
+2025-07-24 17:24:34,240 - DEBUG - 追加内容，当前长度: 55000
+2025-07-24 17:24:34,247 - DEBUG - 追加内容，当前长度: 60000
+2025-07-24 17:24:34,252 - DEBUG - 追加内容，当前长度: 65000
+2025-07-24 17:24:42,298 - DEBUG - 悬停链接: http://www.gongjux.com/
+2025-07-24 17:24:42,330 - DEBUG - 悬停链接: 
+2025-07-24 17:24:42,364 - DEBUG - 悬停链接: https://gongjux.com/
+2025-07-24 17:24:42,381 - DEBUG - 悬停链接: 
+2025-07-24 17:24:43,522 - DEBUG - 刷新当前页面
+2025-07-24 17:24:43,523 - DEBUG - 导航请求: URL=https://gongjux.com/userAgentGenerator/, 类型=4, 主框架=True
+2025-07-24 17:24:43,576 - DEBUG - 悬停链接: 
+2025-07-24 17:24:43,607 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:24:43,731 - DEBUG - 悬停链接: https://gongjux.com/
+2025-07-24 17:24:43,764 - DEBUG - 悬停链接: 
+2025-07-24 17:24:54,346 - DEBUG - 悬停链接: http://www.gongjux.com/
+2025-07-24 17:24:54,380 - DEBUG - 悬停链接: https://gongjux.com/
+2025-07-24 17:24:55,360 - DEBUG - 导航请求: URL=https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz, 类型=3, 主框架=True
+2025-07-24 17:24:55,375 - DEBUG - 悬停链接: 
+2025-07-24 17:24:55,375 - DEBUG - URL 变化: https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz
+2025-07-24 17:24:55,397 - DEBUG - 导航请求: URL=https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz, 类型=1, 主框架=True
+2025-07-24 17:24:55,626 - DEBUG - 悬停链接: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwip_fGgltWOAxWdJkQIHR6HFmcQPAgI
+2025-07-24 17:24:55,636 - DEBUG - 悬停链接: 
+2025-07-24 17:24:55,700 - DEBUG - 悬停链接: https://gongjux.com/userAgentGenerator/
+2025-07-24 17:24:55,730 - DEBUG - 悬停链接: 
+2025-07-24 17:24:55,847 - DEBUG - 悬停链接: https://www.bejson.com/network/useragent_rnd/
+2025-07-24 17:24:55,963 - DEBUG - 悬停链接: 
+2025-07-24 17:24:56,131 - DEBUG - 悬停链接: https://www.bejson.com/network/useragent_rnd/
+2025-07-24 17:24:56,530 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:24:56,635 - DEBUG - 导航请求: URL=https://www.bejson.com/network/useragent_rnd/, 类型=6, 主框架=True
+2025-07-24 17:24:56,637 - DEBUG - 导航请求: URL=https://www.bejson.com/network/useragent_rnd/, 类型=0, 主框架=True
+2025-07-24 17:24:56,946 - DEBUG - 悬停链接: 
+2025-07-24 17:24:59,331 - DEBUG - 悬停链接: https://www.bejson.com/network/useragent_rnd/
+2025-07-24 17:25:00,174 - DEBUG - 导航请求: URL=https://www.bejson.com/network/useragent_rnd/, 类型=6, 主框架=True
+2025-07-24 17:25:00,177 - DEBUG - 导航请求: URL=https://www.bejson.com/network/useragent_rnd/, 类型=0, 主框架=True
+2025-07-24 17:25:01,429 - DEBUG - 悬停链接: 
+2025-07-24 17:25:03,131 - DEBUG - 悬停链接: https://www.bejson.com/network/useragent_rnd/
+2025-07-24 17:25:04,665 - DEBUG - 悬停链接: 
+2025-07-24 17:25:05,998 - DEBUG - 悬停链接: https://www.bejson.com/network/useragent_rnd/
+2025-07-24 17:25:06,600 - DEBUG - 导航请求: URL=https://www.bejson.com/network/useragent_rnd/, 类型=6, 主框架=True
+2025-07-24 17:25:06,602 - DEBUG - 导航请求: URL=https://www.bejson.com/network/useragent_rnd/, 类型=0, 主框架=True
+2025-07-24 17:25:11,984 - DEBUG - 悬停链接: 
+2025-07-24 17:25:11,984 - DEBUG - URL 变化: https://www.bejson.com/network/useragent_rnd/
+2025-07-24 17:25:11,988 - DEBUG - 导航请求: URL=https://www.bejson.com/network/useragent_rnd/, 类型=1, 主框架=True
+2025-07-24 17:25:12,009 - DEBUG - 悬停链接: 
+2025-07-24 17:25:23,481 - DEBUG - 悬停链接: https://www.bejson.com/httputil/useragent/
+2025-07-24 17:25:23,496 - DEBUG - 悬停链接: 
+2025-07-24 17:25:27,296 - DEBUG - 导航请求: URL=https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz, 类型=3, 主框架=True
+2025-07-24 17:25:27,305 - DEBUG - 悬停链接: 
+2025-07-24 17:25:27,306 - DEBUG - URL 变化: https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz
+2025-07-24 17:25:27,328 - DEBUG - 导航请求: URL=https://www.google.com/search?q=在线ua生成&sca_esv=a500fe4c35fb992d&source=hp&ei=v_uBaNBXqrG6vw-X-bfBCg&iflsig=AOw8s4IAAAAAaIIJz6jGMKiTI46msRAjxhIL48UjiW4t&ved=0ahUKEwiQs92cltWOAxWqmO4BHZf8LagQ4dUDCA0&uact=5&oq=在线ua生成&gs_lp=Egdnd3Mtd2l6Ig7lnKjnur91YeeUn-aIkDIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUi9O1AAWLM6cAR4AJABAJgB0wGgAewaqgEGMC43LjEwuAEDyAEA-AEBmAIVoALKG8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBcICBRAAGO8FwgIIEAAYgAQYogSYAwCSBwY0LjMuMTSgB9IysgcGMC4zLjE0uAfBG8IHBzAuMTAuMTHIB0g&sclient=gws-wiz, 类型=1, 主框架=True
+2025-07-24 17:25:27,563 - DEBUG - 悬停链接: 
+2025-07-24 17:25:27,637 - DEBUG - 悬停链接: https://www.google.com/webhp?hl=zh-CN&sa=X&ved=0ahUKEwiZnPTBltWOAxXmL0QIHeQ8DTIQPAgI
+2025-07-24 17:25:27,651 - DEBUG - 悬停链接: 
+2025-07-24 17:25:27,766 - DEBUG - 悬停链接: https://www.bejson.com/network/useragent_rnd/
+2025-07-24 17:25:27,822 - DEBUG - 悬停链接: 
+2025-07-24 17:25:27,987 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:25:28,848 - DEBUG - 悬停链接: https://uutool.cn/user-agent-generator/
+2025-07-24 17:25:29,144 - DEBUG - 导航请求: URL=https://uutool.cn/user-agent-generator/, 类型=6, 主框架=True
+2025-07-24 17:25:29,146 - DEBUG - 导航请求: URL=https://uutool.cn/user-agent-generator/, 类型=0, 主框架=True
+2025-07-24 17:25:29,629 - DEBUG - 悬停链接: 
+2025-07-24 17:25:31,495 - DEBUG - 悬停链接: https://uutool.cn/user-agent-generator/
+2025-07-24 17:25:31,731 - DEBUG - 悬停链接: 
+2025-07-24 17:25:31,731 - DEBUG - URL 变化: https://uutool.cn/user-agent-generator/
+2025-07-24 17:25:31,734 - DEBUG - 导航请求: URL=https://uutool.cn/user-agent-generator/, 类型=1, 主框架=True
+2025-07-24 17:25:31,856 - DEBUG - 悬停链接: 
+2025-07-24 17:25:42,279 - DEBUG - 悬停链接: https://ip.900cha.com/
+2025-07-24 17:25:42,294 - DEBUG - 悬停链接: 
+2025-07-24 17:25:44,224 - DEBUG - 悬停链接: https://www.ipaddress.my/?lang=zh_CN
+2025-07-24 17:25:44,228 - DEBUG - 悬停链接: 
+2025-07-24 17:25:51,320 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=mfuBaKHnMqyrur8P2cGruAY&iflsig=AOw8s4IAAAAAaIIJqae22rxb5kZaNtFMcj6CEbX-gqXX&ved=0ahUKEwjhl4CLltWOAxWsle4BHdngCmcQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIlRhQ7QVY9BVwAXgAkAEAmAHwAaABng2qAQUwLjIuNrgBA8gBAPgBAZgCB6ACvQyoAgDCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAuGIAEGNEDGMcBwgIIEC4YgAQY1ALCAgUQLhiABJgDAfEFLNE6l5o_l16SBwMyLTegB6wqsgcDMi03uAe9DMIHCTAuMy4yLjEuMcgHQA&sclient=gws-wiz, 类型=3, 主框架=True
+2025-07-24 17:25:51,348 - DEBUG - 悬停链接: 
+2025-07-24 17:25:51,348 - DEBUG - URL 变化: https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=mfuBaKHnMqyrur8P2cGruAY&iflsig=AOw8s4IAAAAAaIIJqae22rxb5kZaNtFMcj6CEbX-gqXX&ved=0ahUKEwjhl4CLltWOAxWsle4BHdngCmcQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIlRhQ7QVY9BVwAXgAkAEAmAHwAaABng2qAQUwLjIuNrgBA8gBAPgBAZgCB6ACvQyoAgDCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAuGIAEGNEDGMcBwgIIEC4YgAQY1ALCAgUQLhiABJgDAfEFLNE6l5o_l16SBwMyLTegB6wqsgcDMi03uAe9DMIHCTAuMy4yLjEuMcgHQA&sclient=gws-wiz
+2025-07-24 17:25:51,354 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机IP&sca_esv=a500fe4c35fb992d&source=hp&ei=mfuBaKHnMqyrur8P2cGruAY&iflsig=AOw8s4IAAAAAaIIJqae22rxb5kZaNtFMcj6CEbX-gqXX&ved=0ahUKEwjhl4CLltWOAxWsle4BHdngCmcQ4dUDCA0&uact=5&oq=本机IP&gs_lp=Egdnd3Mtd2l6IgjmnKzmnLpJUDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIlRhQ7QVY9BVwAXgAkAEAmAHwAaABng2qAQUwLjIuNrgBA8gBAPgBAZgCB6ACvQyoAgDCAgoQABiABBhDGIoFwgIQEC4YgAQY0QMYQxjHARiKBcICCxAuGIAEGNEDGMcBwgIIEC4YgAQY1ALCAgUQLhiABJgDAfEFLNE6l5o_l16SBwMyLTegB6wqsgcDMi03uAe9DMIHCTAuMy4yLjEuMcgHQA&sclient=gws-wiz, 类型=1, 主框架=True
+2025-07-24 17:25:51,593 - DEBUG - 悬停链接: 
+2025-07-24 17:25:52,869 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:25:53,300 - DEBUG - 悬停链接: https://iplark.com/
+2025-07-24 17:25:53,453 - DEBUG - 悬停链接: 
+2025-07-24 17:25:53,798 - DEBUG - 悬停链接: https://ip.skk.moe/
+2025-07-24 17:25:54,503 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=6, 主框架=True
+2025-07-24 17:25:54,505 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=0, 主框架=True
+2025-07-24 17:25:54,885 - DEBUG - 悬停链接: 
+2025-07-24 17:25:55,441 - DEBUG - 悬停链接: 
+2025-07-24 17:25:55,441 - DEBUG - URL 变化: https://ip.skk.moe/
+2025-07-24 17:25:55,445 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=1, 主框架=True
+2025-07-24 17:25:56,116 - DEBUG - 悬停链接: 
+2025-07-24 17:25:59,171 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:26:03,262 - DEBUG - 刷新当前页面
+2025-07-24 17:26:03,263 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:26:03,488 - DEBUG - 悬停链接: 
+2025-07-24 17:26:03,557 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:26:21,609 - DEBUG - 关闭应用程序
+2025-07-24 17:26:30,800 - DEBUG - 已禁用 browserforge.download.DownloadIfNotExists
+2025-07-24 17:26:30,801 - DEBUG - 成功 Hook browserforge.network.extract_json
+2025-07-24 17:26:30,802 - DEBUG - Hook extract_json: 原始路径 D:\socks5_proxy\browser\dist\pp_browser.dist\browserforge\headers\data\input-network.zip, 重定向到 D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data
+2025-07-24 17:26:30,802 - DEBUG - 使用缓存文件: D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data\input-network.zip
+2025-07-24 17:26:30,803 - DEBUG - Hook extract_json: 原始路径 D:\socks5_proxy\browser\dist\pp_browser.dist\browserforge\headers\data\header-network.zip, 重定向到 D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data
+2025-07-24 17:26:30,803 - DEBUG - 使用缓存文件: D:\socks5_proxy\browser\dist\pp_browser.dist\data\browserforge\headers\data\header-network.zip
+2025-07-24 17:26:30,807 - DEBUG - 应用程序启动
+2025-07-24 17:26:31,005 - DEBUG - QApplication 初始化成功
+2025-07-24 17:26:31,005 - DEBUG - 开始初始化 SimpleBrowser
+2025-07-24 17:26:31,191 - DEBUG - 设置 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36, Accept-Language: zh-CN
+2025-07-24 17:26:31,191 - DEBUG - 获取 WebEngineProfile 成功
+2025-07-24 17:26:31,197 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:26:31,197 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:26:31,198 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:26:31,198 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:26:31,205 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:26:31,209 - DEBUG - 新标签页添加成功
+2025-07-24 17:26:31,209 - DEBUG - SimpleBrowser 初始化完成
+2025-07-24 17:26:31,209 - DEBUG - SimpleBrowser 窗口创建成功
+2025-07-24 17:26:31,304 - DEBUG - 窗口显示
+2025-07-24 17:26:31,442 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:26:31,453 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:26:52,519 - DEBUG - 悬停链接: 
+2025-07-24 17:26:52,520 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:26:52,524 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:26:52,749 - DEBUG - 悬停链接: 
+2025-07-24 17:26:53,565 - DEBUG - 设置 SOCKS5 代理: 127.0.0.1:7897
+2025-07-24 17:26:54,568 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=6, 主框架=True
+2025-07-24 17:26:55,305 - DEBUG - 悬停链接: 
+2025-07-24 17:26:55,923 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:27:08,750 - DEBUG - 导航请求: URL=https://www.google.com/search?q=在线ua检测&sca_esv=a500fe4c35fb992d&source=hp&ei=ZPyBaKeKLe6hkPIP9qmpkQU&iflsig=AOw8s4IAAAAAaIIKdBPPTaDw_nSWWX5tZd6M530-UuNF&oq=在线ua&gs_lp=Egdnd3Mtd2l6IgjlnKjnur91YSoCCAEyBRAAGIAEMgUQABjvBTIFEAAY7wUyBRAAGO8FSNIqUC9YgxRwAXgAkAEAmAHCAaABwAqqAQMwLje4AQHIAQD4AQGYAgegAu0KqAIAwgILEC4YgAQY0QMYxwHCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBZgDAfEF-uyt469m3ZiSBwUwLjQuM6AHyxyyBwUwLjQuM7gH7QrCBwMyLTfIByM&sclient=gws-wiz, 类型=2, 主框架=True
+2025-07-24 17:27:08,961 - DEBUG - 悬停链接: 
+2025-07-24 17:27:08,961 - DEBUG - URL 变化: https://www.google.com/search?q=在线ua检测&sca_esv=a500fe4c35fb992d&source=hp&ei=ZPyBaKeKLe6hkPIP9qmpkQU&iflsig=AOw8s4IAAAAAaIIKdBPPTaDw_nSWWX5tZd6M530-UuNF&oq=在线ua&gs_lp=Egdnd3Mtd2l6IgjlnKjnur91YSoCCAEyBRAAGIAEMgUQABjvBTIFEAAY7wUyBRAAGO8FSNIqUC9YgxRwAXgAkAEAmAHCAaABwAqqAQMwLje4AQHIAQD4AQGYAgegAu0KqAIAwgILEC4YgAQY0QMYxwHCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBZgDAfEF-uyt469m3ZiSBwUwLjQuM6AHyxyyBwUwLjQuM7gH7QrCBwMyLTfIByM&sclient=gws-wiz
+2025-07-24 17:27:08,974 - DEBUG - 导航请求: URL=https://www.google.com/search?q=在线ua检测&sca_esv=a500fe4c35fb992d&source=hp&ei=ZPyBaKeKLe6hkPIP9qmpkQU&iflsig=AOw8s4IAAAAAaIIKdBPPTaDw_nSWWX5tZd6M530-UuNF&oq=在线ua&gs_lp=Egdnd3Mtd2l6IgjlnKjnur91YSoCCAEyBRAAGIAEMgUQABjvBTIFEAAY7wUyBRAAGO8FSNIqUC9YgxRwAXgAkAEAmAHCAaABwAqqAQMwLje4AQHIAQD4AQGYAgegAu0KqAIAwgILEC4YgAQY0QMYxwHCAg4QLhiABBjRAxjUAhjHAcICBRAuGIAEwgIKEAAYgAQYQxiKBZgDAfEF-uyt469m3ZiSBwUwLjQuM6AHyxyyBwUwLjQuM7gH7QrCBwMyLTfIByM&sclient=gws-wiz, 类型=1, 主框架=True
+2025-07-24 17:27:09,180 - DEBUG - 悬停链接: 
+2025-07-24 17:27:09,181 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:27:09,588 - DEBUG - 悬停链接: https://tool.ip138.com/useragent/
+2025-07-24 17:27:09,675 - DEBUG - 悬停链接: 
+2025-07-24 17:27:09,822 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:27:10,259 - DEBUG - 悬停链接: https://tool.ip138.com/useragent/
+2025-07-24 17:27:10,627 - DEBUG - 悬停链接: 
+2025-07-24 17:27:10,861 - DEBUG - 悬停链接: https://useragent.buyaocha.com/
+2025-07-24 17:27:11,891 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=6, 主框架=True
+2025-07-24 17:27:11,893 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=6, 主框架=True
+2025-07-24 17:27:11,895 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=0, 主框架=True
+2025-07-24 17:27:12,210 - DEBUG - 悬停链接: 
+2025-07-24 17:27:12,409 - DEBUG - 悬停链接: 
+2025-07-24 17:27:12,409 - DEBUG - URL 变化: https://useragent.buyaocha.com/
+2025-07-24 17:27:12,411 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=1, 主框架=True
+2025-07-24 17:27:12,562 - DEBUG - 悬停链接: 
+2025-07-24 17:27:17,808 - DEBUG - 悬停链接: https://www.buyaocha.com/
+2025-07-24 17:27:17,825 - DEBUG - 悬停链接: 
+2025-07-24 17:27:18,945 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:27:18,945 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:27:18,945 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:27:18,946 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:27:18,949 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:27:18,971 - DEBUG - 新标签页添加成功
+2025-07-24 17:27:18,991 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:27:18,992 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:27:19,216 - DEBUG - 悬停链接: 
+2025-07-24 17:27:19,216 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:27:19,221 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:27:19,385 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:27:19,443 - DEBUG - 悬停链接: 
+2025-07-24 17:27:24,262 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机ip&sca_esv=a500fe4c35fb992d&source=hp&ei=fPyBaPyTNafOkPIPrNSCuQI&iflsig=AOw8s4IAAAAAaIIKjIxH8x4XtJqXkK3kDTR3fMLm85mE&oq=本机&gs_lp=Egdnd3Mtd2l6IgbmnKzmnLoqAggAMgoQABiABBhDGIoFMgUQABiABDIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI5RxQAFiiC3AAeACQAQCYAawDoAGeDKoBCTAuMS4zLjEuMbgBAcgBAPgBAZgCBqACyAzCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwCSBwcyLTQuMS4xoAfJNrIHBzItNC4xLjG4B8gMwgcFMC4yLjTIBx8&sclient=gws-wiz, 类型=2, 主框架=True
+2025-07-24 17:27:24,465 - DEBUG - 悬停链接: 
+2025-07-24 17:27:24,465 - DEBUG - URL 变化: https://www.google.com/search?q=本机ip&sca_esv=a500fe4c35fb992d&source=hp&ei=fPyBaPyTNafOkPIPrNSCuQI&iflsig=AOw8s4IAAAAAaIIKjIxH8x4XtJqXkK3kDTR3fMLm85mE&oq=本机&gs_lp=Egdnd3Mtd2l6IgbmnKzmnLoqAggAMgoQABiABBhDGIoFMgUQABiABDIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI5RxQAFiiC3AAeACQAQCYAawDoAGeDKoBCTAuMS4zLjEuMbgBAcgBAPgBAZgCBqACyAzCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwCSBwcyLTQuMS4xoAfJNrIHBzItNC4xLjG4B8gMwgcFMC4yLjTIBx8&sclient=gws-wiz
+2025-07-24 17:27:24,471 - DEBUG - 导航请求: URL=https://www.google.com/search?q=本机ip&sca_esv=a500fe4c35fb992d&source=hp&ei=fPyBaPyTNafOkPIPrNSCuQI&iflsig=AOw8s4IAAAAAaIIKjIxH8x4XtJqXkK3kDTR3fMLm85mE&oq=本机&gs_lp=Egdnd3Mtd2l6IgbmnKzmnLoqAggAMgoQABiABBhDGIoFMgUQABiABDIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI5RxQAFiiC3AAeACQAQCYAawDoAGeDKoBCTAuMS4zLjEuMbgBAcgBAPgBAZgCBqACyAzCAgsQLhiABBjRAxjHAcICBRAuGIAEwgIIEC4YgAQY1AKYAwCSBwcyLTQuMS4xoAfJNrIHBzItNC4xLjG4B8gMwgcFMC4yLjTIBx8&sclient=gws-wiz, 类型=1, 主框架=True
+2025-07-24 17:27:24,668 - DEBUG - 悬停链接: 
+2025-07-24 17:27:25,202 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:27:27,540 - DEBUG - 悬停链接: https://ip.skk.moe/
+2025-07-24 17:27:27,828 - DEBUG - 悬停链接: 
+2025-07-24 17:27:28,125 - DEBUG - 悬停链接: https://ip.skk.moe/
+2025-07-24 17:27:28,490 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=6, 主框架=True
+2025-07-24 17:27:28,491 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=0, 主框架=True
+2025-07-24 17:27:29,245 - DEBUG - 悬停链接: 
+2025-07-24 17:27:29,245 - DEBUG - URL 变化: https://ip.skk.moe/
+2025-07-24 17:27:29,249 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=1, 主框架=True
+2025-07-24 17:27:29,356 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:27:29,472 - DEBUG - 悬停链接: 
+2025-07-24 17:27:29,498 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:28:21,871 - DEBUG - 刷新当前页面
+2025-07-24 17:28:21,872 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=4, 主框架=True
+2025-07-24 17:28:22,091 - DEBUG - 悬停链接: 
+2025-07-24 17:28:24,060 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:28:25,907 - DEBUG - 悬停链接: https://useragent.buyaocha.com/
+2025-07-24 17:28:25,938 - DEBUG - 悬停链接: 
+2025-07-24 17:28:31,855 - DEBUG - 设置 User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2032.123 Safari/537.36 Core/1.47.2620.886 QQBrowser/9.4.7658.400
+2025-07-24 17:28:33,319 - DEBUG - 刷新当前页面
+2025-07-24 17:28:33,320 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=4, 主框架=True
+2025-07-24 17:28:33,457 - DEBUG - 悬停链接: 
+2025-07-24 17:28:34,014 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:28:37,821 - DEBUG - 刷新当前页面
+2025-07-24 17:28:37,822 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=4, 主框架=True
+2025-07-24 17:28:37,971 - DEBUG - 悬停链接: 
+2025-07-24 17:28:38,520 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:28:40,906 - DEBUG - 刷新当前页面
+2025-07-24 17:28:40,907 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:28:41,195 - DEBUG - 悬停链接: 
+2025-07-24 17:28:41,223 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:28:44,454 - DEBUG - 悬停链接: mailto:waf-report@skk.moe?subject=Access Denied (403) %7C Sukka&body=Access Denied (403) %7C Sukka%0ARequest ID%3A %5B964263ab0b882adc%5D%0AURL%3A %5Bhttps%3A%2F%2Fip.skk.moe%2F%5D%0AReferrer%3A %5B%5D%0A%0A%0AYou can also submit your report through GitHub Issue (Copy the link below into your browser%27s address bar)%3A%0A%0Ahttps%3A%2F%2Fgithub.com%2FSukkaLab%2FReport%2Fissues%2Fnew%3Ftitle%3DAccess%2520Denied%2520(403)%2520%257C%2520Sukka%26body%3DRequest%2520ID%253A%2520%255B964263ab0b882adc%255D%250AURL%253A%2520%255Bhttps%253A%252F%252Fip.skk.moe%252F%255D%250AReferrer%253A%2520%255B%255D
+2025-07-24 17:28:44,606 - DEBUG - 悬停链接: 
+2025-07-24 17:28:47,137 - DEBUG - 刷新当前页面
+2025-07-24 17:28:47,138 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:28:47,335 - DEBUG - 悬停链接: 
+2025-07-24 17:28:47,356 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:28:49,554 - DEBUG - 悬停链接: https://useragent.buyaocha.com/
+2025-07-24 17:28:49,604 - DEBUG - 悬停链接: 
+2025-07-24 17:28:54,871 - DEBUG - 悬停链接: https://useragent.buyaocha.com/
+2025-07-24 17:28:54,879 - DEBUG - 悬停链接: 
+2025-07-24 17:29:01,055 - DEBUG - 设置 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36
+2025-07-24 17:29:01,437 - DEBUG - 悬停链接: https://useragent.buyaocha.com/
+2025-07-24 17:29:01,453 - DEBUG - 悬停链接: 
+2025-07-24 17:29:02,465 - DEBUG - 刷新当前页面
+2025-07-24 17:29:02,466 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=4, 主框架=True
+2025-07-24 17:29:02,613 - DEBUG - 悬停链接: 
+2025-07-24 17:29:04,331 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:04,588 - DEBUG - 悬停链接: https://www.buyaocha.com/
+2025-07-24 17:29:04,871 - DEBUG - 悬停链接: 
+2025-07-24 17:29:06,534 - DEBUG - 刷新当前页面
+2025-07-24 17:29:06,535 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:29:06,724 - DEBUG - 悬停链接: 
+2025-07-24 17:29:06,736 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:07,854 - DEBUG - 刷新当前页面
+2025-07-24 17:29:07,855 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:29:08,045 - DEBUG - 悬停链接: 
+2025-07-24 17:29:08,056 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:08,705 - DEBUG - 刷新当前页面
+2025-07-24 17:29:08,706 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:29:08,890 - DEBUG - 悬停链接: 
+2025-07-24 17:29:08,903 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:10,255 - DEBUG - 设置 URL: https://ip.skk.moe/
+2025-07-24 17:29:10,255 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=1, 主框架=True
+2025-07-24 17:29:10,449 - DEBUG - 悬停链接: 
+2025-07-24 17:29:10,462 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:12,623 - DEBUG - 开始清除浏览器数据
+2025-07-24 17:29:12,623 - DEBUG - 正在清空 cookies...
+2025-07-24 17:29:12,625 - DEBUG - Cookies 已清空
+2025-07-24 17:29:12,625 - DEBUG - HTTP 缓存已清空
+2025-07-24 17:29:12,625 - DEBUG - 标签页 1 localStorage、sessionStorage 和 IndexedDB 已清空
+2025-07-24 17:29:12,626 - DEBUG - 刷新标签页 1
+2025-07-24 17:29:12,626 - DEBUG - 标签页 2 localStorage、sessionStorage 和 IndexedDB 已清空
+2025-07-24 17:29:12,627 - DEBUG - 刷新标签页 2
+2025-07-24 17:29:12,653 - DEBUG - 标签页 2 Web Storage 清除结果: {}
+2025-07-24 17:29:12,654 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:29:12,655 - DEBUG - 标签页 2 Web Storage 清除结果: {}
+2025-07-24 17:29:12,655 - DEBUG - 导航请求: URL=https://useragent.buyaocha.com/, 类型=4, 主框架=True
+2025-07-24 17:29:12,874 - DEBUG - 悬停链接: 
+2025-07-24 17:29:14,613 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:15,485 - DEBUG - 刷新当前页面
+2025-07-24 17:29:15,487 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:29:16,210 - DEBUG - 悬停链接: 
+2025-07-24 17:29:16,222 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:17,200 - DEBUG - 刷新当前页面
+2025-07-24 17:29:17,200 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=4, 主框架=True
+2025-07-24 17:29:17,388 - DEBUG - 悬停链接: 
+2025-07-24 17:29:17,400 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:30,653 - DEBUG - 悬停链接: https://useragent.buyaocha.com/
+2025-07-24 17:29:30,669 - DEBUG - 悬停链接: 
+2025-07-24 17:29:33,136 - DEBUG - 悬停链接: https://www.buyaocha.com/
+2025-07-24 17:29:33,169 - DEBUG - 悬停链接: 
+2025-07-24 17:29:33,187 - DEBUG - 悬停链接: https://useragent.buyaocha.com/
+2025-07-24 17:29:33,252 - DEBUG - 悬停链接: 
+2025-07-24 17:29:33,779 - DEBUG - 初始化 BrowserTab
+2025-07-24 17:29:33,779 - DEBUG - 初始化 WebEnginePage，JavaScript 已启用
+2025-07-24 17:29:33,779 - DEBUG - BrowserTab 初始化成功
+2025-07-24 17:29:33,779 - DEBUG - URL 变化: https://google.com
+2025-07-24 17:29:33,783 - DEBUG - 设置 URL: https://google.com
+2025-07-24 17:29:33,807 - DEBUG - 新标签页添加成功
+2025-07-24 17:29:33,831 - DEBUG - 导航请求: URL=https://google.com/, 类型=1, 主框架=True
+2025-07-24 17:29:34,516 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:29:35,250 - DEBUG - 悬停链接: 
+2025-07-24 17:29:35,250 - DEBUG - URL 变化: https://www.google.com/
+2025-07-24 17:29:35,255 - DEBUG - 导航请求: URL=https://www.google.com/, 类型=1, 主框架=True
+2025-07-24 17:29:35,661 - DEBUG - 悬停链接: 
+2025-07-24 17:29:40,320 - DEBUG - 导航请求: URL=https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0, 类型=2, 主框架=True
+2025-07-24 17:29:40,527 - DEBUG - 悬停链接: 
+2025-07-24 17:29:40,528 - DEBUG - URL 变化: https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0
+2025-07-24 17:29:40,532 - DEBUG - 导航请求: URL=https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0, 类型=1, 主框架=True
+2025-07-24 17:29:40,632 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:40,735 - DEBUG - 悬停链接: 
+2025-07-24 17:29:40,831 - DEBUG - 导航请求: URL=https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0&sei=Cv2BaOzkC9nHkPIPpenFuA0, 类型=6, 主框架=True
+2025-07-24 17:29:41,050 - DEBUG - 悬停链接: 
+2025-07-24 17:29:41,050 - DEBUG - URL 变化: https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0&sei=Cv2BaOzkC9nHkPIPpenFuA0
+2025-07-24 17:29:41,055 - DEBUG - 导航请求: URL=https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0&sei=Cv2BaOzkC9nHkPIPpenFuA0, 类型=1, 主框架=True
+2025-07-24 17:29:41,257 - DEBUG - 悬停链接: 
+2025-07-24 17:29:41,547 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:41,591 - DEBUG - 悬停链接: https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.900cha.com/&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAwQAg&usg=AOvVaw2Y2EkB1eOXwZ-fr26sWmw6
+2025-07-24 17:29:41,634 - DEBUG - 悬停链接: 
+2025-07-24 17:29:42,286 - DEBUG - 悬停链接: https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.900cha.com/&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAwQAg&usg=AOvVaw2Y2EkB1eOXwZ-fr26sWmw6
+2025-07-24 17:29:42,771 - DEBUG - 悬停链接: 
+2025-07-24 17:29:42,887 - DEBUG - 悬停链接: https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://www.ipaddress.my/%3Flang%3Dzh_CN&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAsQAg&usg=AOvVaw0W7ZhNrmsmkjKxocJPg_EK
+2025-07-24 17:29:43,069 - DEBUG - 悬停链接: 
+2025-07-24 17:29:43,741 - DEBUG - 悬停链接: https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.skk.moe/&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAoQAg&usg=AOvVaw32qDTdJg_XlFgzYxsPy5q0
+2025-07-24 17:29:44,209 - DEBUG - 导航请求: URL=https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.skk.moe/&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAoQAg&usg=AOvVaw32qDTdJg_XlFgzYxsPy5q0, 类型=6, 主框架=True
+2025-07-24 17:29:44,209 - DEBUG - 导航请求: URL=https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.skk.moe/&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAoQAg&usg=AOvVaw32qDTdJg_XlFgzYxsPy5q0, 类型=0, 主框架=True
+2025-07-24 17:29:44,428 - DEBUG - 悬停链接: 
+2025-07-24 17:29:44,429 - DEBUG - URL 变化: https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.skk.moe/&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAoQAg&usg=AOvVaw32qDTdJg_XlFgzYxsPy5q0
+2025-07-24 17:29:44,434 - DEBUG - 导航请求: URL=https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.skk.moe/&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAoQAg&usg=AOvVaw32qDTdJg_XlFgzYxsPy5q0, 类型=1, 主框架=True
+2025-07-24 17:29:44,449 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:44,656 - DEBUG - 悬停链接: 
+2025-07-24 17:29:44,659 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=6, 主框架=True
+2025-07-24 17:29:44,861 - DEBUG - 悬停链接: 
+2025-07-24 17:29:44,861 - DEBUG - URL 变化: https://ip.skk.moe/
+2025-07-24 17:29:44,866 - DEBUG - 导航请求: URL=https://ip.skk.moe/, 类型=1, 主框架=True
+2025-07-24 17:29:44,913 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:45,051 - DEBUG - 悬停链接: 
+2025-07-24 17:29:46,330 - DEBUG - 导航请求: URL=https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0&sei=Cv2BaOzkC9nHkPIPpenFuA0, 类型=6, 主框架=True
+2025-07-24 17:29:46,345 - DEBUG - 悬停链接: 
+2025-07-24 17:29:46,345 - DEBUG - URL 变化: https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0&sei=Cv2BaOzkC9nHkPIPpenFuA0
+2025-07-24 17:29:46,368 - DEBUG - 导航请求: URL=https://www.google.com/search?hl=zh-CN&source=hp&biw=&bih=&q=本机IP&iflsig=AOw8s4IAAAAAaIILFGAT38LEbbNucpMN0hSQ7_NlZ7nn&gbv=2&oq=本机IP&gs_l=heirloom-hp.3..0i512l10.2327.4060.0.4268.8.8.0.0.0.0.201.1117.3j4j1.8.0....0...1..34.heirloom-hp..2.6.734.GofBLlKVAO0&sei=Cv2BaOzkC9nHkPIPpenFuA0, 类型=1, 主框架=True
+2025-07-24 17:29:46,551 - DEBUG - 悬停链接: https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.900cha.com/&ved=2ahUKEwjSjvO6l9WOAxWZJEQIHYSwBPMQFnoECAwQAg&usg=AOvVaw2Y2EkB1eOXwZ-fr26sWmw6
+2025-07-24 17:29:46,559 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:46,570 - DEBUG - 悬停链接: 
+2025-07-24 17:29:46,862 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:47,136 - DEBUG - 悬停链接: https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.900cha.com/&ved=2ahUKEwj4tLe9l9WOAxVRHUQIHdf4Ie4QFnoECAcQAg&usg=AOvVaw3qB-FzXr_MddtWguKwj8_9
+2025-07-24 17:29:47,400 - DEBUG - 导航请求: URL=https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.900cha.com/&ved=2ahUKEwj4tLe9l9WOAxVRHUQIHdf4Ie4QFnoECAcQAg&usg=AOvVaw3qB-FzXr_MddtWguKwj8_9, 类型=6, 主框架=True
+2025-07-24 17:29:47,401 - DEBUG - 导航请求: URL=https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.900cha.com/&ved=2ahUKEwj4tLe9l9WOAxVRHUQIHdf4Ie4QFnoECAcQAg&usg=AOvVaw3qB-FzXr_MddtWguKwj8_9, 类型=0, 主框架=True
+2025-07-24 17:29:47,603 - DEBUG - 悬停链接: 
+2025-07-24 17:29:47,618 - DEBUG - 悬停链接: 
+2025-07-24 17:29:47,618 - DEBUG - URL 变化: https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.900cha.com/&ved=2ahUKEwj4tLe9l9WOAxVRHUQIHdf4Ie4QFnoECAcQAg&usg=AOvVaw3qB-FzXr_MddtWguKwj8_9
+2025-07-24 17:29:47,621 - DEBUG - 导航请求: URL=https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://ip.900cha.com/&ved=2ahUKEwj4tLe9l9WOAxVRHUQIHdf4Ie4QFnoECAcQAg&usg=AOvVaw3qB-FzXr_MddtWguKwj8_9, 类型=1, 主框架=True
+2025-07-24 17:29:47,635 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:29:47,846 - DEBUG - 悬停链接: 
+2025-07-24 17:29:47,849 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=6, 主框架=True
+2025-07-24 17:29:49,475 - DEBUG - 悬停链接: 
+2025-07-24 17:29:49,476 - DEBUG - URL 变化: https://ip.900cha.com/
+2025-07-24 17:29:49,481 - DEBUG - 导航请求: URL=https://ip.900cha.com/, 类型=1, 主框架=True
+2025-07-24 17:29:49,982 - DEBUG - 悬停链接: 
+2025-07-24 17:29:49,983 - DEBUG - 注入导航脚本结果: None
+2025-07-24 17:31:02,815 - DEBUG - 悬停链接: https://colorpicker.900cha.com/
+2025-07-24 17:31:02,832 - DEBUG - 悬停链接: 
+2025-07-24 17:31:02,881 - DEBUG - 悬停链接: https://ip.900cha.com/8.210.9.30.html
+2025-07-24 17:31:02,899 - DEBUG - 悬停链接: 
+2025-07-24 17:31:03,464 - DEBUG - 悬停链接: https://www.900cha.com/
+2025-07-24 17:31:03,648 - DEBUG - 悬停链接: 
+2025-07-24 17:31:06,324 - DEBUG - 关闭应用程序
