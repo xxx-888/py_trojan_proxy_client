@@ -8,5 +8,5 @@
     "timeout": 60,
     "max_retries": 3,
     "buffer_size": 16384,
-    "pool_cleanup_interval": 30
+    "pool_cleanup_interval": 180
 }

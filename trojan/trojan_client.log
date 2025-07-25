@@ -12001,3 +12001,4 @@
 2025-07-25 15:45:17.586 | WARNING  | __main__:forward_server_to_client:175 - [814ff1ce] 服务器到客户端转发错误: TimeoutError: 
 2025-07-25 15:45:32.057 | WARNING  | __main__:forward_client_to_server:161 - [bf2d4ce5] 客户端到服务器转发错误: TimeoutError: 
 2025-07-25 15:45:32.446 | WARNING  | __main__:forward_server_to_client:175 - [bf2d4ce5] 服务器到客户端转发错误: TimeoutError: 
+2025-07-25 16:07:07.487 | ERROR    | __main__:start:559 - 启动 SOCKS5 服务器失败: 
