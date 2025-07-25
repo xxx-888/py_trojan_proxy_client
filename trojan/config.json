@@ -1,0 +1,12 @@
+{
+    "trojan_host": "dmit.573777.xyz",
+    "trojan_port": 443,
+    "trojan_password": "Qaz1Wsx2Edc3",
+    "listen_host": "127.0.0.1",
+    "listen_port": 10800,
+    "users": {},
+    "timeout": 60,
+    "max_retries": 3,
+    "buffer_size": 16384,
+    "pool_cleanup_interval": 30
+}
