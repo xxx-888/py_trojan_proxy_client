@@ -1,0 +1,12 @@
+{
+    "trojan_host": "your.trojan.server.com",
+    "trojan_port": 443,
+    "trojan_password": "YOUR_TROJAN_PASSWORD",
+    "listen_host": "127.0.0.1",
+    "listen_port": 10800,
+    "users": {},
+    "timeout": 60,
+    "max_retries": 3,
+    "buffer_size": 16384,
+    "pool_cleanup_interval": 180
+}

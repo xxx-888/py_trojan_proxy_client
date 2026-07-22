@@ -1,0 +1,45 @@
+# ============ Python 字节码 / 缓存 ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============ 虚拟环境 ============
+.venv/
+venv/
+env/
+ENV/
+
+# ============ 本地数据 / 日志 ============
+db.sqlite3
+*.sqlite3
+*.log
+media/
+staticfiles/
+
+# ============ 本地配置 / 凭据（勿提交）============
+config.json
+
+# ============ 编译产物 / 二进制 ============
+*.exe
+
+# ============ 项目私有目录（Agent 工作记忆等）============
+.workbuddy/
+
+# ============ IDE / 编辑器 ============
+.idea/
+.vscode/
+*.swp
+
+# ============ 环境变量 / 密钥 ============
+.env
+*.local
+
+# ============ 编译产物 / 系统文件 ============
+*.mo
+.DS_Store
+Thumbs.db
