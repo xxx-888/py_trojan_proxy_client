@@ -12,7 +12,7 @@
 [本地应用]
     |  SOCKS5 (127.0.0.1:10800)
     v
-[Trojan 客户端 / 本地 SOCKS5 服务端]   <- 本项目 (src/trojan_client.py)
+[Trojan 客户端 / 本地 SOCKS5 服务端]   <- 本项目 (src/ Python 包)
     |  Trojan 协议 (TLS 加密, 443)
     v
 [远端 Trojan 服务器]
@@ -52,12 +52,20 @@ py_trojan_proxy_client/
 ├── config.example.json       # 配置模板（占位，不含真实凭据）
 ├── config.json               # 你的真实配置（本地保留，已被 .gitignore 忽略）
 ├── src/
-│   └── trojan_client.py      # ★ 当前主程序（配置驱动，含认证 + 连接池清理）
+│   ├── __init__.py           # 包标识
+│   ├── __main__.py           # 支持 `python -m src` 启动入口
+│   ├── config.py             # 配置加载与校验 + PROJECT_ROOT
+│   ├── logger.py             # 日志初始化（loguru：文件 + 控制台）
+│   ├── protocol.py           # 协议工具：地址编解码 / build_trojan_request / UDP 数据报解析
+│   ├── trojan.py             # ★ TrojanClient：TLS 连接、CONNECT/UDP 转发、连接池、DNS
+│   ├── socks5.py             # SOCKS5Server：握手/认证/解析/启动
+│   └── main.py               # 入口：装配配置 / TrojanClient / SOCKS5Server 并启动
 ├── legacy/                   # 历史 / 实验版本（保留以备参考）
 │   ├── trojan_client_old.py  # 早期版本：硬编码服务器参数，无配置文件
 │   └── socks5_proxy.py       # 纯 SOCKS5 代理实验（不含 Trojan 转发）
 ├── tests/
-│   └── test_proxy.py         # 测试占位（待补充）
+│   ├── test_protocol.py      # 协议工具单元测试（地址编解码 / UDP 数据报 / build 请求）
+│   └── test_proxy.py         # 集成测试占位（待补充）
 ├── new_trojan_client.exe     # 由 src 打包的 Windows 可执行文件（本地保留，已忽略）
 └── trojan_client.log         # 运行日志（本地生成，已忽略）
 ```
@@ -109,8 +117,8 @@ cp config.example.json config.json
 ## 使用方法
 
 ```bash
-# 在项目根目录运行（脚本会自动定位 config.json）
-python src/trojan_client.py
+# 在项目根目录运行（以 Python 包方式启动，自动定位 config.json）
+python -m src
 ```
 
 启动后，将本机应用的代理设置为：
@@ -143,9 +151,9 @@ Windows 也可直接运行打包好的 `new_trojan_client.exe`（需同目录有
 
 ## 后续优化计划
 
-以下为后续可完善方向（暂未实现）：
+以下为后续可完善方向（暂未实现，部分已实现）：
 
-- [ ] 单元测试 / 集成测试（`tests/` 当前为空占位）
+- [x] 单元测试 / 集成测试（已新增 `tests/test_protocol.py`，覆盖协议编解码）
 - [ ] 配置文件校验与更友好的错误提示
 - [ ] 系统托盘 GUI / 命令行参数（覆盖配置文件）
 - [ ] 多服务器负载均衡与自动切换
