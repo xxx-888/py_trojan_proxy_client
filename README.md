@@ -47,6 +47,7 @@
 ```
 py_trojan_proxy_client/
 ├── README.md                 # 本文件
+├── run.py                    # 根目录启动器（python run.py）
 ├── .gitignore                # 忽略 config.json / *.exe / *.log / .idea 等
 ├── requirements.txt          # 依赖 (loguru)
 ├── config.example.json       # 配置模板（占位，不含真实凭据）
@@ -117,9 +118,15 @@ cp config.example.json config.json
 ## 使用方法
 
 ```bash
-# 在项目根目录运行（以 Python 包方式启动，自动定位 config.json）
+# 方式一：以 Python 包方式运行（自动定位 config.json）
 python -m src
+
+# 方式二：通过根目录启动器运行（效果相同）
+python run.py
 ```
+
+> ⚠️ 不要直接 `python src/main.py`：包内使用相对导入（`from .config import ...`），
+> 必须以「模块/包」方式加载（`-m src` 或 `run.py`），当作脚本直接运行会丢失包上下文而报错。
 
 启动后，将本机应用的代理设置为：
 
