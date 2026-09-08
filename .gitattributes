@@ -1,0 +1,6 @@
+# Windows 批处理必须使用 CRLF，否则 cmd.exe 解析标签/括号块时可能出错
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# shell 脚本保持 LF
+*.sh text eol=lf
