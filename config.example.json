@@ -5,8 +5,11 @@
     "listen_host": "127.0.0.1",
     "listen_port": 10800,
     "users": {},
-    "timeout": 60,
-    "max_retries": 3,
-    "buffer_size": 16384,
-    "pool_cleanup_interval": 180
+    "timeout": 10,
+    "idle_timeout": 300,
+    "buffer_size": 65536,
+    "stats_interval": 60,
+    "ssl_verify": false,
+    "ssl_sni": "",
+    "log_level": "INFO"
 }

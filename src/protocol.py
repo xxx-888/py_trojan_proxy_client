@@ -5,7 +5,7 @@
 """
 import socket
 import struct
-from typing import Tuple
+from typing import List, Tuple
 
 from loguru import logger
 
@@ -47,7 +47,7 @@ def decode_address(data: bytes, offset: int) -> Tuple[int, str, int]:
     """从字节流解析地址（offset 指向 ATYP 字节）。
 
     返回 (atyp, 地址字符串, 解析后的新偏移)，供请求/响应复用。
-    地址类型不支持时抛出 ValueError。
+    地址类型不支持或数据不完整时抛出 ValueError / IndexError。
     """
     atyp = data[offset]
     offset += 1
@@ -76,3 +76,47 @@ def parse_socks5_udp_datagram(data: bytes) -> Tuple[int, str, int, bytes]:
     offset += 2
     payload = data[offset:]
     return atyp, addr, port, payload
+
+
+def build_trojan_udp_packet(dst_addr: str, dst_port: int, payload: bytes) -> bytes:
+    """构造 Trojan UDP 数据包：地址段 + 长度(2字节) + CRLF + 负载。"""
+    return encode_address(dst_addr, dst_port) + struct.pack('>H', len(payload)) + CRLF + payload
+
+
+def parse_trojan_udp_stream(buf: bytes) -> Tuple[List[Tuple[str, int, bytes]], int]:
+    """从 TCP 流缓冲区中解析尽可能多的 Trojan UDP 数据包。
+
+    TCP 是字节流，多个 UDP 包可能粘在一个 read() 里、也可能被拆开，
+    因此按「地址段 + 长度前缀 + CRLF + 负载」逐包解析，尾部不完整的
+    数据包保留在缓冲区中等待更多数据。
+
+    返回 (完整解析出的 (地址, 端口, 负载) 列表, 已消费的字节数)；
+    调用方应保留 buf[consumed:]。首包非法时 consumed 为 0，由调用方
+    决定丢弃策略。
+    """
+    packets: List[Tuple[str, int, bytes]] = []
+    offset = 0
+    total = len(buf)
+    while True:
+        start = offset
+        try:
+            _, addr, offset = decode_address(buf, offset)
+            if offset + 2 > total:
+                raise IndexError('端口不完整')
+            port = struct.unpack('>H', buf[offset:offset + 2])[0]
+            offset += 2
+            if offset + 2 > total:
+                raise IndexError('长度不完整')
+            length = struct.unpack('>H', buf[offset:offset + 2])[0]
+            offset += 2
+            if buf[offset:offset + 2] != CRLF:
+                raise ValueError('无效的 CRLF 分隔符')
+            offset += 2
+            if offset + length > total:
+                raise IndexError('负载不完整')
+            packets.append((addr, port, buf[offset:offset + length]))
+            offset += length
+        except (ValueError, IndexError, struct.error):
+            offset = start  # 回退到本包起点，等待后续数据补齐
+            break
+    return packets, offset
