@@ -2,6 +2,7 @@
 import argparse
 import asyncio
 import sys
+from typing import Dict
 
 from loguru import logger
 
@@ -10,6 +11,22 @@ from .config import DEFAULT_CONFIG_NAME, PROJECT_ROOT, find_config, load_config
 from .logger import setup_logger
 from .trojan import TrojanClient
 from .socks5 import SOCKS5Server
+
+
+def _loop_exception_handler(loop: asyncio.AbstractEventLoop, context: Dict) -> None:
+    """过滤事件循环回调中良性的连接中断噪声，其余交给默认处理器。
+
+    Windows ProactorEventLoop 在对端异常断开（RST, WinError 10054 /
+    连接中止 1236）时，会在 _call_connection_lost 等内部收尾回调里抛出
+    ConnectionResetError/ConnectionAbortedError——这是 asyncio 内部噪声，
+    对端粗暴断开在代理场景（广告/爬虫类目标很常见）属正常网络行为；
+    业务侧各转发泵已妥善处理连接错误，此处降级为 DEBUG 避免刷屏。
+    """
+    exception = context.get('exception')
+    if isinstance(exception, (ConnectionResetError, ConnectionAbortedError)):
+        logger.debug(f"忽略事件循环中的连接中断噪声: {context.get('message', '')} {exception!r}")
+        return
+    loop.default_exception_handler(context)
 
 
 def parse_args(argv=None) -> argparse.Namespace:
@@ -27,6 +44,7 @@ def parse_args(argv=None) -> argparse.Namespace:
 
 async def serve(config_path: str) -> None:
     """加载配置并启动代理服务，直到被取消或出错。"""
+    asyncio.get_running_loop().set_exception_handler(_loop_exception_handler)
     config = load_config(config_path)
     setup_logger(level=config['log_level'])
 
