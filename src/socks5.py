@@ -138,6 +138,11 @@ class SOCKS5Server:
             logger.warning(f"[{request_id}] SOCKS5 请求处理失败: {type(e).__name__}: {e}")
             await self._reply(writer, _REPLY_FAIL)
         except asyncio.CancelledError:
+            # 关机：立即中止本地连接（不等优雅关闭握手），进程才能即时退出
+            try:
+                writer.transport.abort()
+            except (AttributeError, OSError):
+                pass
             raise
         except Exception as e:
             logger.exception(f"[{request_id}] 意外的 SOCKS5 请求错误: {type(e).__name__}: {e}")

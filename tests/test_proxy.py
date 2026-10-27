@@ -14,6 +14,7 @@ import ssl
 import struct
 import sys
 import tempfile
+import time
 import unittest
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -271,6 +272,39 @@ class TestUdpAssociate(ProxyIntegrationTestCase):
             except (ConnectionError, OSError):
                 pass
             await asyncio.sleep(0.2)
+        finally:
+            await mock.close()
+            await server.stop()
+
+
+class TestPromptShutdown(ProxyIntegrationTestCase):
+    """模拟 Ctrl+C 关机：有活跃隧道时，取消全部任务应在 1 秒内完成收尾。"""
+
+    def test_active_tunnels_cancel_within_1s(self):
+        asyncio.run(self._scenario())
+
+    async def _scenario(self):
+        mock, server = await self._start_proxy()
+        try:
+            tunnels = []
+            for _ in range(5):
+                reader, writer = await self._socks_connect(server.bound_port)
+                await self._request_connect(writer, 'idle.example.com', 443)
+                reply = await asyncio.wait_for(reader.readexactly(10), timeout=5)
+                self.assertEqual(reply[1], 0x00)
+                tunnels.append(writer)
+
+            # 模拟 asyncio.run 收到 Ctrl+C 后的 _cancel_all_tasks：
+            # 取消事件循环内其余全部任务，等待它们完成收尾
+            others = [t for t in asyncio.all_tasks() if t is not asyncio.current_task()]
+            for task in others:
+                task.cancel()
+            start = time.monotonic()
+            await asyncio.wait_for(
+                asyncio.gather(*others, return_exceptions=True), timeout=1.0
+            )
+            elapsed = time.monotonic() - start
+            self.assertLess(elapsed, 1.0, '关机收尾应立即完成，而不是等待网络优雅关闭')
         finally:
             await mock.close()
             await server.stop()

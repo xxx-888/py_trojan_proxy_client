@@ -198,13 +198,25 @@ class TrojanClient:
                 asyncio.create_task(self._pump(client_reader, server_writer, request_id, '客户端→目标')),
                 asyncio.create_task(self._pump(server_reader, client_writer, request_id, '目标→客户端')),
             ]
-            done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
-            for task in pending:
-                task.cancel()
-            await asyncio.gather(*pending, return_exceptions=True)
-            for task in done:
-                if not task.cancelled() and task.exception() is not None:
-                    logger.error(f"[{request_id}] 转发任务异常: {task.exception()!r}")
+            try:
+                done, pending = await asyncio.wait(tasks, return_when=asyncio.FIRST_COMPLETED)
+                for task in pending:
+                    task.cancel()
+                await asyncio.gather(*pending, return_exceptions=True)
+                for task in done:
+                    if not task.cancelled() and task.exception() is not None:
+                        logger.error(f"[{request_id}] 转发任务异常: {task.exception()!r}")
+            except asyncio.CancelledError:
+                # 关机：连带取消两个转发泵并立即中止远端 TLS 连接，
+                # 否则 safe_close 的 wait_closed 会等待网络关闭握手，拖慢退出
+                for task in tasks:
+                    task.cancel()
+                await asyncio.gather(*tasks, return_exceptions=True)
+                try:
+                    server_writer.transport.abort()
+                except (AttributeError, OSError):
+                    pass
+                raise
         finally:
             await self.release(server_writer)
 
@@ -305,6 +317,17 @@ class TrojanClient:
             for task in pending:
                 task.cancel()
             await asyncio.gather(*pending, return_exceptions=True)
+        except asyncio.CancelledError:
+            # 关机：连带取消三个子任务并立即中止远端连接，保证即时退出
+            for task in tasks:
+                task.cancel()
+            await asyncio.gather(*tasks, return_exceptions=True)
+            try:
+                server_writer.transport.abort()
+            except (AttributeError, OSError):
+                pass
+            udp_socket.close()
+            raise
         finally:
             udp_socket.close()
             await self.release(server_writer)
